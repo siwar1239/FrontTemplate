@@ -1,4 +1,4 @@
-var autoprefixer = require('gulp-autoprefixer'),
+const autoprefixer = require('gulp-autoprefixer'),
     browserSync = require('browser-sync'),
     concat = require('gulp-concat'),
     connect = require('gulp-connect-php'),
@@ -12,84 +12,134 @@ var autoprefixer = require('gulp-autoprefixer'),
 /* ------------------------------------
 Process CSS
 ------------------------------------ */
-gulp.task('processCss', function() {
-    return gulp.src('Scss/**/*.scss')
+gulp.task('processCss', done => {
+    // return gulp.src([
+    //     'Scss/**/*.scss',
+    //     '!Scss/print.scss'
+    // ])
+    return gulp.src('Scss/main.scss')
 
     // For production
-    .pipe(sass().on('error', sass.logError))
-    .pipe(autoprefixer())
-    .pipe(rename('prod.css'))
-    .pipe(gulp.dest('Prod'))
+        .pipe(sass().on('error', sass.logError))
+        .pipe(autoprefixer())
+        .pipe(rename('prod.css'))
+        .pipe(gulp.dest('Prod'))
 
-    // // For distribution
-    // .pipe(sass({ outputStyle: 'compressed' }).on('error', sass.logError))
-    // .pipe(rename('dist.min.css'))
-    // .pipe(stripCssComments({ preserve: false }))
-    // .pipe(gulp.dest('../Resources/Public/Dist'))
+        // For distribution
+        // .pipe(sass({ outputStyle: 'compressed' }).on('error', sass.logError))
+        // .pipe(rename('dist.min.css'))
+        // .pipe(stripCssComments({ preserve: false }))
+        // .pipe(gulp.dest('../Resources/Public/Dist'));
 
+    done();
 });
+
+// gulp.task('processPrintCss', done => {
+//     return gulp.src('Scss/print.scss')
+//
+//     // For production
+//         .pipe(sass().on('error', sass.logError))
+//         .pipe(autoprefixer())
+//         .pipe(rename('print.css'))
+//         .pipe(gulp.dest('Prod'))
+//
+//         // For distribution
+//         .pipe(sass({ outputStyle: 'compressed' }).on('error', sass.logError))
+//         .pipe(rename('print.min.css'))
+//         .pipe(stripCssComments({ preserve: false }))
+//         .pipe(gulp.dest('../Resources/Public/Dist'));
+//
+//     done();
+// });
 
 /* ------------------------------------
 Process JS
 ------------------------------------ */
-gulp.task('processJs', function() {
+gulp.task('processJs', done => {
     return gulp.src([
-        'node_modules/jquery/dist/jquery.js',
-        'Js/imagesloaded.pkgd.min.js',
-        'node_modules/slick-carousel/slick/slick.js',
+        './node_modules/jquery/dist/jquery.js',
+        // './node_modules/datatables.net/js/jquery.dataTables.js',
+        // './node_modules/slick-carousel/slick/slick.js',
+        // './node_modules/jcf/js/jcf.js',
+        // './node_modules/jcf/js/jcf.select.js',
+        // './node_modules/jcf/js/jcf.checkbox.js',
+        // './node_modules/jcf/js/jcf.radio.js',
+        // './node_modules/body-scroll-lock/lib/bodyScrollLock.js',
+        // './node_modules/@fancyapps/fancybox/dist/jquery.fancybox.js',
+        // './node_modules/cookieconsent/src/cookieconsent.js',
+        // 'Js/cookieconsent.js',
         'Js/main.js'
     ])
 
     // For production
-    .pipe(concat('prod.js'))
-    .pipe(gulp.dest('Prod'))
+        .pipe(concat('prod.js'))
+        .pipe(gulp.dest('Prod'))
 
-    // // For distribution
-    // .pipe(rename('dist.min.js'))
-    // .pipe(uglify())
-    // .pipe(gulp.dest('../Resources/Public/Dist'))
+        // For distribution
+        // .pipe(rename('dist.min.js'))
+        // .pipe(uglify().on('error', console.error))
+        // .pipe(gulp.dest('../Resources/Public/Dist'));
+
+    done();
 });
 
 /* ------------------------------------
 Copy assets
 ------------------------------------ */
-// gulp.task('copyFonts', function() {
+// gulp.task('copyFonts', done => {
 //     gulp.src([
+//         './node_modules/roboto-fontface/fonts/**/*',
 //         'Fonts/**/*.eot',
 //         'Fonts/**/*.svg',
 //         'Fonts/**/*.ttf',
 //         'Fonts/**/*.woff',
 //         'Fonts/**/*.woff2'
 //     ])
-//     .pipe(gulp.dest('../Resources/Public/Fonts'))
-//
+//         .pipe(gulp.dest('../Resources/Public/Fonts'))
+//     done();
 // });
 
-// gulp.task('copyImages', function() {
+// gulp.task('copyImages', done => {
 //     gulp.src('Img/**/*')
-//     .pipe(gulp.dest('../Resources/Public/Img'))
+//         .pipe(gulp.dest('../Resources/Public/Img'))
+//     done();
 // });
 
 /* ------------------------------------
 Serve and watch
 ------------------------------------ */
-gulp.task('default', ['processCss', 'processJs'], function() {
+gulp.task('watch', gulp.series('processCss', 'processJs', (done) => {
+    connect.server({
+        // base: './Somewhere/Else'
+    }, function () {
+        browserSync({ proxy: '127.0.0.1:8000' });
+    });
 
-    // connect.server({
-    //     // base: './Somewhere/Else'
-    // }, function() {
-    //     browserSync({ proxy: '127.0.0.1:8000' });
-    // });
-
-    gulp.watch('Scss/**/*.scss', ['processCss']).on('change', browserSync.reload);
-    gulp.watch('Js/**/*.js', ['processJs']).on('change', browserSync.reload);
+    gulp.watch('Scss/**/*.scss', gulp.series('processCss')).on('change', browserSync.reload);
+    gulp.watch('Js/**/*.js', gulp.series('processJs')).on('change', browserSync.reload);
     gulp.watch('Templates/**/*.php').on('change', browserSync.reload);
-});
 
-gulp.task('watch:scss', ['processCss'], function() {
-    gulp.watch('Scss/**/*.scss', ['processCss']);
-});
+    gulp.watch('Scss/**/*.scss', gulp.series('processCss'));
+    gulp.watch('Js/**/*.js', gulp.series('processJs'));
+    gulp.watch('Templates/**/*.php');
 
-gulp.task('watch:js', ['processJs'], function() {
-    gulp.watch('Js/**/*.js', ['processJs']);
-});
+    done();
+}));
+
+gulp.task('default', gulp.series('watch'));
+
+// ====================================
+// Additional task for copying propblematical assets
+// ====================================
+// gulp.task('copyCssVendors', done => {
+//     gulp.src([
+//         './node_modules/@fancyapps/fancybox/dist/jquery.fancybox.css',
+//         './node_modules/datatables.net-dt/css/jquery.dataTables.css'
+//     ])
+//         .pipe(rename({
+//             prefix: '_',
+//             extname: '.scss'
+//         }))
+//         .pipe(gulp.dest('Vendors'));
+//     done();
+// });
