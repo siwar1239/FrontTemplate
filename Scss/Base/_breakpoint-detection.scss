@@ -1,0 +1,67 @@
+/* ------------------------------------
+Use stylesheet breakpoints for scripts
+Credits: Michael Riemer
+=======================================
+How to use
+
+[1.] Add the following HTML before your closing </body> tag:
+
+<div class="breakpoint-detection">
+    <div class="detect-xs">XS</div>
+    <div class="detect-sm">SM</div>
+    <div class="detect-md">MD</div>
+    <div class="detect-lg">LG</div>
+</div>
+
+[2.] Add the following jQuery (JS) before your custom functions:
+
+function isXs() { return $('.breakpoint-detection .detect-xs').is(':visible') === true; }
+function isSm() { return $('.breakpoint-detection .detect-sm').is(':visible') === true; }
+function isMd() { return $('.breakpoint-detection .detect-md').is(':visible') === true; }
+function isLg() { return $('.breakpoint-detection .detect-lg').is(':visible') === true; }
+
+[3.] Use breakpoint-detection in custom functions, hooray:
+
+$(function() {
+    if ( isXs() ) {
+        // Do something on mobile
+    }
+});
+------------------------------------ */
+
+.breakpoint-detection {
+    height: 0;
+    overflow: hidden;
+
+    .detect-xs {
+        display: none;
+
+        @media (min-width: 0) and (max-width: $screen-xs-max) {
+            display: block;
+        }
+    }
+
+    .detect-sm {
+        display: none;
+
+        @media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
+            display: block;
+        }
+    }
+
+    .detect-md {
+        display: none;
+
+        @media (min-width: $screen-md-min) and (max-width: $screen-md-max) {
+            display: block;
+        }
+    }
+
+    .detect-lg {
+        display: none;
+
+        @media (min-width: $screen-lg-min) {
+            display: block;
+        }
+    }
+}

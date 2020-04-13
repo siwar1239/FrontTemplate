@@ -1,0 +1,5 @@
+Order deny,allow
+allow from all
+
+Allow from goldland-media.com
+Allow from localhost

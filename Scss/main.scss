@@ -1,0 +1,56 @@
+/* ------------------------------------
+1. Vendors & NPM components
+------------------------------------ */
+@import "node_modules/slick-carousel/slick/slick.scss";
+/* ------------------------------------
+2. Basics
+------------------------------------ */
+@import "Base/colors";
+@import "Base/variables";
+@import "Base/development-utilities";
+@import "Base/font-faces";
+@import "Base/font-variables-and-settings";
+@import "Base/z-indexes";
+
+/* ------------------------------------
+3. Functions
+------------------------------------ */
+// @import "Functions/shade-and-tint";
+
+/* ------------------------------------
+4. Mixins
+------------------------------------ */
+
+
+/* ------------------------------------
+5. Placeholders
+------------------------------------ */
+
+
+/* ------------------------------------
+6. Partials
+------------------------------------ */
+@import "Partials/header";
+@import "Partials/body";
+@import "Partials/footer";
+/* ------------------------------------
+7. Conditionals
+------------------------------------ */
+
+
+/* ------------------------------------
+8. Globals
+------------------------------------ */
+@import "Globals/headlines";
+@import "Globals/texts";
+@import "Globals/images";
+@import "Globals/forms";
+@import "Globals/links";
+@import "Globals/lists";
+@import "Globals/buttons";
+@import "Globals/tables";
+
+/* ------------------------------------
+9. ContentElements
+------------------------------------ */
+@import "ContentElements/slider";

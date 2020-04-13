@@ -1,0 +1,31 @@
+/* ------------------------------------
+Very convenient
+=======================================
+But don't forget to hide these when going live!
+------------------------------------ */
+
+// For checking single items
+%aid-line {
+    outline: 1px dashed red;
+}
+
+// For checking the whole grid
+%grid-aid {
+
+    .container {
+        @extend %aid-line;
+
+        .row {
+            outline: 1px solid green;
+        }
+
+        .row [class^="col-"],
+        .row [class*=" col-"] {
+            outline: 1px dotted blue;
+        }
+    }
+}
+
+body {
+    // @extend %grid-aid;
+}
