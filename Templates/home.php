@@ -14,7 +14,6 @@
     <?php include 'ContentElements/blocks.php'; ?>
     <?php include 'ContentElements/text-request-info.php'; ?>
 
-
     <?php include 'Partials/footer.php'; ?>
 </main>
 <?php include 'Globals/foot.php'; ?>
