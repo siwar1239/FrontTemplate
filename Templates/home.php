@@ -2,6 +2,8 @@
 <main>
     <?php include 'Partials/header.php'; ?>
     <?php include 'ContentElements/slider.php'; ?>
+    <?php include 'ContentElements/blocks.php'; ?>
+
     <div class="container">
         <div class="row">
             <div class="col-md-12 col-sm-10">

@@ -9927,11 +9927,7 @@ Add here all z-index overrides to elements for better control of z-index problem
 ------------------------------------ */
 h1 {
   color: red; }
-@media (min-width: 1200px){
-  .container, .container-sm, .container-md, .container-lg, .container-xl {
-    max-width: 940px;
-  }
-}
+
 /* ------------------------------------
 9. ContentElements
 ------------------------------------ */
