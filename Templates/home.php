@@ -13,6 +13,8 @@
     <?php include 'ContentElements/slider.php'; ?>
     <?php include 'ContentElements/blocks.php'; ?>
     <?php include 'ContentElements/textbody.php'; ?>
+    <?php include 'ContentElements/aktuelles.php'; ?>
+
 
     <?php include 'Partials/footer.php'; ?>
 </main>
