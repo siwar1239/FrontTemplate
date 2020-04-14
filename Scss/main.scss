@@ -1,6 +1,7 @@
 /* ------------------------------------
 1. Vendors & NPM components
 ------------------------------------ */
+
 @import "node_modules/slick-carousel/slick/slick.scss";
 /*@import "node_modules/bootstrap/dist/css/bootstrap.css";*/
 @import "node_modules/bootstrap/scss/bootstrap";
@@ -34,8 +35,6 @@
 6. Partials
 ------------------------------------ */
 @import "Partials/header";
-@import "Partials/meta-menu";
-@import "Partials/main-menu";
 @import "Partials/body";
 @import "Partials/footer";
 /* ------------------------------------
@@ -59,3 +58,4 @@
 9. ContentElements
 ------------------------------------ */
 @import "ContentElements/slider";
+

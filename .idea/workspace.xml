@@ -4,11 +4,17 @@
     <list default="true" id="9f87c767-7d8b-480c-bd9d-1bca28336790" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Prod/prod.css" beforeDir="false" afterPath="$PROJECT_DIR$/Prod/prod.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Prod/prod.js" beforeDir="false" afterPath="$PROJECT_DIR$/Prod/prod.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scss/Base/_colors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Scss/Base/_colors.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Scss/ContentElements/_slider.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Scss/ContentElements/_slider.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scss/Partials/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Scss/Partials/_footer.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Scss/Partials/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Scss/Partials/_header.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Scss/main.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Templates/ContentElements/slider.php" beforeDir="false" afterPath="$PROJECT_DIR$/Templates/ContentElements/slider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Templates/Partials/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/Templates/Partials/footer.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Templates/Partials/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/Templates/Partials/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Templates/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/Templates/home.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,40 +35,41 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="2" />
+          <entry key="css" value="4" />
           <entry key="gitignore" value="1" />
-          <entry key="js" value="4" />
-          <entry key="json" value="2" />
+          <entry key="js" value="6" />
+          <entry key="json" value="3" />
           <entry key="md" value="1" />
-          <entry key="php" value="3" />
-          <entry key="scss" value="11" />
+          <entry key="php" value="7" />
+          <entry key="scss" value="23" />
+          <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="2" />
-          <entry key="JSON" value="2" />
-          <entry key="JavaScript" value="4" />
+          <entry key="CSS" value="4" />
+          <entry key="JSON" value="3" />
+          <entry key="JavaScript" value="6" />
           <entry key="Markdown" value="1" />
-          <entry key="PHP" value="3" />
-          <entry key="PLAIN_TEXT" value="1" />
-          <entry key="SCSS" value="11" />
+          <entry key="PHP" value="7" />
+          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="SCSS" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gitignore" value="14" />
           <entry key="js" value="108" />
-          <entry key="php" value="128" />
-          <entry key="scss" value="92" />
+          <entry key="php" value="508" />
+          <entry key="scss" value="310" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JavaScript" value="108" />
-          <entry key="PHP" value="128" />
+          <entry key="PHP" value="508" />
           <entry key="PLAIN_TEXT" value="14" />
-          <entry key="SCSS" value="92" />
+          <entry key="SCSS" value="310" />
         </counts>
       </usages-collector>
     </session>
@@ -70,51 +77,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="31" selection-start-column="31" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Scss/Partials/_header.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+            <state relative-caret-position="493">
+              <caret line="29" column="45" selection-start-line="29" selection-start-column="45" selection-end-line="29" selection-end-column="45" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Js/main.js">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/Templates/ContentElements/slider.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="73" selection-start-line="7" selection-start-column="73" selection-end-line="7" selection-end-column="73" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Templates/Partials/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="10" lean-forward="true" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gulpfile.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="539">
-              <caret line="71" column="9" selection-start-line="71" selection-start-column="9" selection-end-line="71" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Prod/prod.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="9891" lean-forward="true" selection-start-line="9891" selection-end-line="9891" />
+            <state relative-caret-position="51">
+              <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -122,20 +106,60 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Scss/main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="131">
-              <caret line="36" selection-start-line="36" selection-end-line="37" selection-end-column="29" />
+            <state relative-caret-position="1020">
+              <caret line="60" selection-start-line="60" selection-end-line="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Scss/Base/_colors.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Scss/ContentElements/_slider.scss">
+        <entry file="file://$PROJECT_DIR$/Prod/prod.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="449">
+              <caret line="9935" column="18" lean-forward="true" selection-start-line="9935" selection-start-column="18" selection-end-line="9935" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Scss/Base/_breakpoint-detection.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="97">
+              <caret line="31" column="23" lean-forward="true" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Scss/Base/_z-indexes.scss">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Scss/Globals/_headlines.scss">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/Scss/ContentElements/_slider.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Scss/Base/_variables.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" selection-end-column="14" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -145,8 +169,11 @@
       <find>processprin</find>
       <find>boots</find>
       <find>$screen-md-min</find>
-      <find>$color-white</find>
       <find>#header .logo</find>
+      <find>green</find>
+      <find>$color-white</find>
+      <find>bootstrap.js.map</find>
+      <find>max-width: 940px;</find>
     </findStrings>
     <dirStrings>
       <dir>C:\xampp\htdocs\FrontTemplate</dir>
@@ -163,14 +190,18 @@
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/Scss/Base/_bootstrap-grid.scss" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/Scss/Partials/_header1.scss" />
-        <option value="$PROJECT_DIR$/Scss/main.scss" />
-        <option value="$PROJECT_DIR$/Templates/ContentElements/slider.php" />
-        <option value="$PROJECT_DIR$/Prod/prod.css" />
-        <option value="$PROJECT_DIR$/Templates/Partials/header.php" />
+        <option value="$PROJECT_DIR$/gulpfile.js" />
+        <option value="$PROJECT_DIR$/Scss/Partials/_footer.scss" />
+        <option value="$PROJECT_DIR$/Templates/Partials/footer.php" />
+        <option value="$PROJECT_DIR$/Templates/home.php" />
+        <option value="$PROJECT_DIR$/Scss/Base/_colors.scss" />
         <option value="$PROJECT_DIR$/Scss/Partials/_header.scss" />
+        <option value="$PROJECT_DIR$/Templates/ContentElements/slider.php" />
         <option value="$PROJECT_DIR$/Scss/ContentElements/_slider.scss" />
+        <option value="$PROJECT_DIR$/Templates/Partials/header.php" />
+        <option value="$PROJECT_DIR$/Scss/main.scss" />
+        <option value="$PROJECT_DIR$/Prod/prod.css" />
       </list>
     </option>
   </component>
@@ -227,8 +258,19 @@
             <path>
               <item name="FrontTemplate" type="b2602c69:ProjectViewProjectNode" />
               <item name="FrontTemplate" type="462c0819:PsiDirectoryNode" />
-              <item name="Scss" type="462c0819:PsiDirectoryNode" />
+              <item name="Templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FrontTemplate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FrontTemplate" type="462c0819:PsiDirectoryNode" />
+              <item name="Templates" type="462c0819:PsiDirectoryNode" />
               <item name="ContentElements" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FrontTemplate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FrontTemplate" type="462c0819:PsiDirectoryNode" />
+              <item name="Templates" type="462c0819:PsiDirectoryNode" />
+              <item name="Partials" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -269,19 +311,18 @@
       <updated>1586788827278</updated>
       <workItem from="1586788833911" duration="330000" />
       <workItem from="1586789176734" duration="1993000" />
-      <workItem from="1586846601504" duration="7767000" />
+      <workItem from="1586846601504" duration="20914000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10090000" />
+    <option name="totallyTimeSpent" value="23237000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" sideWeight="0.5013477" side_tool="true" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49932706" visible="true" weight="0.14712153" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49932706" visible="true" weight="0.20948827" />
       <window_info id="Structure" order="2" sideWeight="0.50067294" side_tool="true" weight="0.15938303" />
       <window_info id="Gulp" order="3" side_tool="true" />
       <window_info id="npm" order="4" side_tool="true" />
@@ -349,13 +390,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/bootstrap/dist/js/bootstrap.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="13" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/bootstrap/scss/bootstrap.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-153" />
@@ -370,16 +404,6 @@
     <entry file="file://$PROJECT_DIR$/Scss/Partials/_body.scss">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Templates/ContentElements/slider.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="539">
-          <caret line="71" column="9" selection-start-line="71" selection-start-column="9" selection-end-line="71" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -390,39 +414,136 @@
     <entry file="file://$PROJECT_DIR$/Js/main.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Prod/prod.css">
+    <entry file="file://$PROJECT_DIR$/Scss/Globals/_headlines.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="9891" lean-forward="true" selection-start-line="9891" selection-end-line="9891" />
+        <state relative-caret-position="369">
+          <caret line="61" column="8" selection-start-line="61" selection-start-column="8" selection-end-line="61" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Templates/Partials/header.php">
+    <entry file="file://$PROJECT_DIR$/Scss/Partials/_footer.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="10" lean-forward="true" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Templates/Partials/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/bootstrap/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="187" column="123" selection-start-line="187" selection-start-column="123" selection-end-line="187" selection-end-column="123" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/jcf/css/theme-minimal/jcf.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1020" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/jcf/LICENSE.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/bootstrap/dist/js/bootstrap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="548">
+          <caret line="4520" column="21" selection-start-line="4520" selection-start-column="21" selection-end-line="4520" selection-end-column="21" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Templates/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scss/Base/_font-faces.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scss/Base/_development-utilities.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scss/Base/_font-variables-and-settings.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scss/Base/_z-indexes.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scss/Base/_breakpoint-detection.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="31" column="23" lean-forward="true" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scss/Base/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Scss/Partials/_header.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+        <state relative-caret-position="493">
+          <caret line="29" column="45" selection-start-line="29" selection-start-column="45" selection-end-line="29" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Templates/ContentElements/slider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="73" selection-start-line="7" selection-start-column="73" selection-end-line="7" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scss/ContentElements/_slider.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Templates/Partials/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Scss/main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="36" selection-start-line="36" selection-end-line="37" selection-end-column="29" />
+        <state relative-caret-position="1020">
+          <caret line="60" selection-start-line="60" selection-end-line="60" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Scss/Globals/_headlines.scss">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/Scss/Base/_colors.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" selection-end-column="16" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Scss/ContentElements/_slider.scss">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/Prod/prod.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="9935" column="18" lean-forward="true" selection-start-line="9935" selection-start-column="18" selection-end-line="9935" selection-end-column="18" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>

@@ -59,7 +59,7 @@ gulp.task('processJs', done => {
     return gulp.src([
         './node_modules/jquery/dist/jquery.js',
         // './node_modules/datatables.net/js/jquery.dataTables.js',
-        // './node_modules/slick-carousel/slick/slick.js',
+         './node_modules/slick-carousel/slick/slick.js',
         // './node_modules/jcf/js/jcf.js',
         // './node_modules/jcf/js/jcf.select.js',
         // './node_modules/jcf/js/jcf.checkbox.js',

@@ -9889,7 +9889,35 @@ Add here all z-index overrides to elements for better control of z-index problem
 /* ------------------------------------
 6. Partials
 ------------------------------------ */
-
+#header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 99998;
+  background-color: #FFFFFF;
+  /*Band top */
+  /******logo********/ }
+  #header .head-top {
+    background-color: #878787; }
+  #header .logo {
+    float: left; }
+    #header .logo a .logo-a {
+      margin: 0;
+      margin-top: 5px;
+      padding: 0;
+      max-width: 75%;
+      white-space: nowrap;
+      overflow: hidden;
+      background-repeat: no-repeat;
+      background-size: contain; }
+    #header .logo a img {
+      width: 174px;
+      max-width: 100%; }
+      @media (max-width: 1199px) {
+        #header .logo a img {
+          width: 60%; } }
+  #header .menu h2 {
+    float: right; }
 
 /* ------------------------------------
 7. Conditionals
@@ -9899,9 +9927,13 @@ Add here all z-index overrides to elements for better control of z-index problem
 ------------------------------------ */
 h1 {
   color: red; }
-
+@media (min-width: 1200px){
+  .container, .container-sm, .container-md, .container-lg, .container-xl {
+    max-width: 940px;
+  }
+}
 /* ------------------------------------
 9. ContentElements
 ------------------------------------ */
-h2 {
-  color: green; }
+#slider .carousel-item img, #slider .active img {
+  /* height:500px;*/ }
