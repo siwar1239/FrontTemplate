@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f87c767-7d8b-480c-bd9d-1bca28336790" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Prod/prod.js" beforeDir="false" afterPath="$PROJECT_DIR$/Prod/prod.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scss/ContentElements/_textbody.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Scss/ContentElements/_textbody.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,7 +31,7 @@
           <entry key="map" value="1" />
           <entry key="md" value="2" />
           <entry key="php" value="14" />
-          <entry key="scss" value="35" />
+          <entry key="scss" value="37" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
@@ -43,7 +43,7 @@
           <entry key="Markdown" value="2" />
           <entry key="PHP" value="14" />
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="SCSS" value="35" />
+          <entry key="SCSS" value="37" />
           <entry key="SourceMap" value="1" />
         </counts>
       </usages-collector>
@@ -53,7 +53,7 @@
           <entry key="gitignore" value="14" />
           <entry key="js" value="114" />
           <entry key="php" value="759" />
-          <entry key="scss" value="480" />
+          <entry key="scss" value="486" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -62,18 +62,32 @@
           <entry key="JavaScript" value="114" />
           <entry key="PHP" value="759" />
           <entry key="PLAIN_TEXT" value="14" />
-          <entry key="SCSS" value="480" />
+          <entry key="SCSS" value="486" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gulpfile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="429">
-              <caret line="76" column="6" lean-forward="true" selection-start-line="76" selection-start-column="6" selection-end-line="76" selection-end-column="6" />
+            <state relative-caret-position="463">
+              <caret line="78" column="21" lean-forward="true" selection-start-line="78" selection-start-column="21" selection-end-line="78" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Scss/ContentElements/_blocks.scss">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Scss/ContentElements/_textbody.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="8" lean-forward="true" selection-start-column="8" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -136,28 +150,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Templates/Partials/footer.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="35" lean-forward="true" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Scss/Partials/_footer.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
               <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Templates/Partials/header.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -215,6 +211,7 @@
         <option value="$PROJECT_DIR$/Scss/Base/_colors.scss" />
         <option value="$PROJECT_DIR$/Prod/prod.js" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
+        <option value="$PROJECT_DIR$/Scss/ContentElements/_textbody.scss" />
       </list>
     </option>
   </component>
@@ -257,50 +254,6 @@
             <path>
               <item name="FrontTemplate" type="b2602c69:ProjectViewProjectNode" />
               <item name="FrontTemplate" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FrontTemplate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FrontTemplate" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FrontTemplate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FrontTemplate" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FrontTemplate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FrontTemplate" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FrontTemplate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FrontTemplate" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FrontTemplate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FrontTemplate" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap.bundle.js" type="620a8d5e:NestingTreeNode" />
-            </path>
-            <path>
-              <item name="FrontTemplate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FrontTemplate" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap.js" type="620a8d5e:NestingTreeNode" />
             </path>
             <path>
               <item name="FrontTemplate" type="b2602c69:ProjectViewProjectNode" />
@@ -386,23 +339,22 @@
       <updated>1586788827278</updated>
       <workItem from="1586788833911" duration="330000" />
       <workItem from="1586789176734" duration="1993000" />
-      <workItem from="1586846601504" duration="27370000" />
+      <workItem from="1586846601504" duration="27831000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29693000" />
+    <option name="totallyTimeSpent" value="30154000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" sideWeight="0.5013477" side_tool="true" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49932706" visible="true" weight="0.20948827" />
+      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.49932706" visible="true" weight="0.20948827" />
       <window_info id="Structure" order="2" sideWeight="0.50067294" side_tool="true" weight="0.15938303" />
       <window_info id="Gulp" order="3" side_tool="true" />
       <window_info id="npm" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="0" visible="true" weight="0.23185265" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.51137596" />
       <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" weight="0.108342364" />
       <window_info anchor="bottom" id="Version Control" order="3" show_stripe_button="false" />
@@ -537,9 +489,6 @@
           <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scss/ContentElements/_blocks.scss">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Prod/prod.css">
       <provider selected="true" editor-type-id="text-editor">
@@ -703,8 +652,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="76" column="6" lean-forward="true" selection-start-line="76" selection-start-column="6" selection-end-line="76" selection-end-column="6" />
+        <state relative-caret-position="463">
+          <caret line="78" column="21" lean-forward="true" selection-start-line="78" selection-start-column="21" selection-end-line="78" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scss/ContentElements/_blocks.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scss/ContentElements/_textbody.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="8" lean-forward="true" selection-start-column="8" selection-end-column="8" />
         </state>
       </provider>
     </entry>
