@@ -38,7 +38,7 @@ $grid-float-breakpoint-max: ($grid-float-breakpoint - 1);
 
 $container-tablet:        (720px + $grid-gutter-width);
 $container-sm:            $container-tablet;
-$container-desktop:       (940px + $grid-gutter-width);
+$container-desktop:       (940px);
 $container-md:            $container-desktop;
 $container-large-desktop: (1300px + $grid-gutter-width);
 $container-lg:            $container-large-desktop;

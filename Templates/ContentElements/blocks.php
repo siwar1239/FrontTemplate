@@ -1,20 +1,19 @@
-<section id="slider">
-    <div id="carouselExampleControls" class="container carousel slide" data-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img class="d-block w-100" src="../../Img/slider_home.jpg" alt="First slide">
+<section id="blocks">
+    <div class="container">
+        <div class="row w-100">
+            <div class="col-lg-3 col-sm-6 col-xs-4">
+                <img src="../../Img/bgm_icone.jpg" class="py-3" >
             </div>
-            <div class="carousel-item">
-                <img class="d-block w-100" src="../../Img/slider_home.jpg" alt="Second slide">
+            <div class="col-lg-3 col-sm-6 col-xs-4">
+                <img src="../../Img/bm_icone.jpg" class="py-3" >
+            </div>
+            <div class="col-lg-3 col-sm-6 col-xs-4">
+                <img src="../../Img/ch_icone.jpg" class="py-3" >
+            </div>
+            <div class="col-lg-3 col-sm-6 col-xs-4">
+                <img src="../../Img/em_icone.jpg" class="py-3" >
             </div>
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
     </div>
 </section>
+

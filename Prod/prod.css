@@ -9890,7 +9890,7 @@ Add here all z-index overrides to elements for better control of z-index problem
 6. Partials
 ------------------------------------ */
 #header {
-  position: fixed;
+  /*position: fixed;*/
   top: 0;
   width: 100%;
   z-index: 99998;

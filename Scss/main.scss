@@ -9,12 +9,14 @@
 /* ------------------------------------
 2. Basics
 ------------------------------------ */
+
 @import "Base/colors";
 @import "Base/variables";
 @import "Base/development-utilities";
 @import "Base/font-faces";
 @import "Base/font-variables-and-settings";
 @import "Base/z-indexes";
+@import "Base/bootstrap-grid";
 
 /* ------------------------------------
 3. Functions
@@ -59,5 +61,7 @@
 ------------------------------------ */
 @import "ContentElements/slider";
 @import "ContentElements/blocks";
+@import "ContentElements/text-request-info";
+
 
 
