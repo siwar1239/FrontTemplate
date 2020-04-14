@@ -70,6 +70,8 @@ gulp.task('processJs', done => {
         // 'Js/cookieconsent.js',
         //****************declaration js files****************//
         'node_modules/bootstrap/dist/js/bootstrap.js',
+        'node_modules/bootstrap/dist/js/bootstrap.js.map',
+
         'Js/main.js'
 
     ])
