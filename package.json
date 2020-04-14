@@ -28,7 +28,9 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
+    "@fancyapps/fancybox": "^3.5.7",
     "body-scroll-lock": "^2.6.4",
+    "bootstrap": "^4.4.1",
     "bootstrap-sass": "^3.4.1",
     "cookieconsent": "^3.1.1",
     "datatables.net": "^1.10.20",
@@ -37,7 +39,6 @@
     "jquery": "^3.3.1",
     "js-cookie": "^2.2.0",
     "normalize.css": "^8.0.0",
-    "slick-carousel": "^1.8.1",
-    "@fancyapps/fancybox": "^3.5.7"
+    "slick-carousel": "^1.8.1"
   }
 }
