@@ -18403,7 +18403,6 @@ return jQuery;
   Object.defineProperty(exports, '__esModule', { value: true });
 
 })));
-//# sourceMappingURL=bootstrap.js.map
 
 function isXs() {
     return $('.breakpoint-detection .detect-xs').is(':visible') === true;
