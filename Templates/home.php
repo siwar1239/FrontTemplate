@@ -12,7 +12,7 @@
     <?php include 'Partials/header.php'; ?>
     <?php include 'ContentElements/slider.php'; ?>
     <?php include 'ContentElements/blocks.php'; ?>
-    <?php include 'ContentElements/text-request-info.php'; ?>
+    <?php include 'ContentElements/textbody.php'; ?>
 
     <?php include 'Partials/footer.php'; ?>
 </main>
