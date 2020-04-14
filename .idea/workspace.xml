@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f87c767-7d8b-480c-bd9d-1bca28336790" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Prod/prod.css" beforeDir="false" afterPath="$PROJECT_DIR$/Prod/prod.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Prod/prod.js" beforeDir="false" afterPath="$PROJECT_DIR$/Prod/prod.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scss/Base/_colors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Scss/Base/_colors.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scss/ContentElements/_slider.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Scss/ContentElements/_slider.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scss/Partials/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Scss/Partials/_footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scss/Partials/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Scss/Partials/_header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Scss/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Templates/ContentElements/slider.php" beforeDir="false" afterPath="$PROJECT_DIR$/Templates/ContentElements/slider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Templates/Partials/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/Templates/Partials/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Templates/Partials/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/Templates/Partials/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Templates/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/Templates/home.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -311,12 +299,12 @@
       <updated>1586788827278</updated>
       <workItem from="1586788833911" duration="330000" />
       <workItem from="1586789176734" duration="1993000" />
-      <workItem from="1586846601504" duration="20914000" />
+      <workItem from="1586846601504" duration="21187000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23237000" />
+    <option name="totallyTimeSpent" value="23510000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
