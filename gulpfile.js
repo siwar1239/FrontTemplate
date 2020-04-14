@@ -68,7 +68,8 @@ gulp.task('processJs', done => {
         // './node_modules/@fancyapps/fancybox/dist/jquery.fancybox.js',
         // './node_modules/cookieconsent/src/cookieconsent.js',
         // 'Js/cookieconsent.js',
-        //declaration boots js
+        //****************declaration js files****************//
+        'node_modules/bootstrap/dist/js/bootstrap.js',
         'Js/main.js'
 
     ])
