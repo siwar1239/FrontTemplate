@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f87c767-7d8b-480c-bd9d-1bca28336790" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Prod/prod.css" beforeDir="false" afterPath="$PROJECT_DIR$/Prod/prod.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scss/ContentElements/_aktuelles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Scss/ContentElements/_aktuelles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Scss/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Templates/ContentElements/aktuelles.php" beforeDir="false" afterPath="$PROJECT_DIR$/Templates/ContentElements/aktuelles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Templates/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/Templates/home.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,7 +30,7 @@
           <entry key="json" value="4" />
           <entry key="map" value="1" />
           <entry key="md" value="2" />
-          <entry key="php" value="38" />
+          <entry key="php" value="39" />
           <entry key="scss" value="66" />
           <entry key="txt" value="1" />
         </counts>
@@ -44,7 +41,7 @@
           <entry key="JSON" value="4" />
           <entry key="JavaScript" value="12" />
           <entry key="Markdown" value="2" />
-          <entry key="PHP" value="38" />
+          <entry key="PHP" value="39" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="SCSS" value="66" />
           <entry key="SourceMap" value="1" />
@@ -55,7 +52,7 @@
           <entry key="css" value="6" />
           <entry key="gitignore" value="14" />
           <entry key="js" value="120" />
-          <entry key="php" value="1291" />
+          <entry key="php" value="1345" />
           <entry key="scss" value="1315" />
         </counts>
       </usages-collector>
@@ -63,7 +60,7 @@
         <counts>
           <entry key="CSS" value="6" />
           <entry key="JavaScript" value="120" />
-          <entry key="PHP" value="1291" />
+          <entry key="PHP" value="1345" />
           <entry key="PLAIN_TEXT" value="14" />
           <entry key="SCSS" value="1315" />
         </counts>
@@ -85,7 +82,7 @@
         <entry file="file://$PROJECT_DIR$/Scss/Base/_variables.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="527">
-              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" selection-end-column="23" />
+              <caret line="40" selection-start-line="40" selection-end-line="40" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -117,20 +114,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Scss/ContentElements/_aktuelles.scss">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Templates/ContentElements/sliderteam.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+            <state relative-caret-position="255">
+              <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Templates/home.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="25" column="39" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
+            <state relative-caret-position="428">
+              <caret line="38" column="6" selection-start-line="38" selection-start-column="6" selection-end-line="38" selection-end-column="6" />
+              <folding>
+                <element signature="e#483#581#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -202,12 +202,12 @@
         <option value="$PROJECT_DIR$/Templates/ContentElements/qualitypromise.php" />
         <option value="$PROJECT_DIR$/Scss/Base/_variables.scss" />
         <option value="$PROJECT_DIR$/Scss/ContentElements/_qualitypromise.scss" />
-        <option value="$PROJECT_DIR$/Templates/home.php" />
         <option value="$PROJECT_DIR$/Scss/main.scss" />
         <option value="$PROJECT_DIR$/Templates/ContentElements/aktuelles.php" />
         <option value="$PROJECT_DIR$/Templates/ContentElements/team.php" />
         <option value="$PROJECT_DIR$/Scss/ContentElements/_team.scss" />
         <option value="$PROJECT_DIR$/Scss/ContentElements/_aktuelles.scss" />
+        <option value="$PROJECT_DIR$/Templates/home.php" />
       </list>
     </option>
   </component>
@@ -318,23 +318,23 @@
       <updated>1586788827278</updated>
       <workItem from="1586788833911" duration="330000" />
       <workItem from="1586789176734" duration="1993000" />
-      <workItem from="1586846601504" duration="46724000" />
+      <workItem from="1586846601504" duration="47514000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49047000" />
+    <option name="totallyTimeSpent" value="49837000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" sideWeight="0.5013477" side_tool="true" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49932706" visible="true" weight="0.20948827" />
+      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.49932706" visible="true" weight="0.20948827" />
       <window_info id="Structure" order="2" sideWeight="0.50067294" side_tool="true" weight="0.15938303" />
       <window_info id="Gulp" order="3" side_tool="true" />
       <window_info id="npm" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="0" visible="true" weight="0.27843988" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.27843988" />
       <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" weight="0.108342364" />
       <window_info anchor="bottom" id="Version Control" order="3" show_stripe_button="false" />
@@ -382,9 +382,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Scss/Globals/_headlines.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/jcf/css/theme-minimal/jcf.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1020" />
@@ -648,7 +645,7 @@
     <entry file="file://$PROJECT_DIR$/Scss/Base/_variables.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
-          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" selection-end-column="23" />
+          <caret line="40" selection-start-line="40" selection-end-line="40" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -673,13 +670,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Templates/home.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="25" column="39" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Templates/ContentElements/aktuelles.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -694,6 +684,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Scss/ContentElements/_aktuelles.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Scss/ContentElements/_team.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -701,10 +698,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Scss/ContentElements/_aktuelles.scss">
+    <entry file="file://$PROJECT_DIR$/Templates/ContentElements/sliderteam.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+        <state relative-caret-position="255">
+          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Templates/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="38" column="6" selection-start-line="38" selection-start-column="6" selection-end-line="38" selection-end-column="6" />
+          <folding>
+            <element signature="e#483#581#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
