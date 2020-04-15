@@ -1,0 +1,41 @@
+#header{
+    /*position: fixed;*/
+    top:0;
+    width: 100%;
+    z-index: $z-index-top;
+    background-color: $color-white;
+    /*Band top */
+    .head-top{
+        background-color: $color-grey;
+    }
+
+
+    /******logo********/
+    .logo {
+        float: left;
+        a{
+            .logo-a {
+                margin: 0;
+                margin-top: 5px;
+                padding: 0;
+                white-space: nowrap;
+                overflow: hidden;
+                background-repeat: no-repeat;
+                background-size: contain;
+            }
+        }
+    }
+    .menu{
+        .menu-nav {
+            float: right;
+            background:red;
+        }
+    }
+}
+
+
+
+
+
+
+
