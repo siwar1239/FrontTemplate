@@ -10716,9 +10716,9 @@ h1 {
       font-family: "SourceSansPro-Regular"; }
 
 #aktuelles .container {
-  background: #f1f6fa; }
+  background: #f1f6fa;
+  text-align: center; }
   #aktuelles .container span {
-    text-align: center;
     font-size: 12px;
     font-family: "SourceSansPro-Regular";
     color: #4a9eb2; }
