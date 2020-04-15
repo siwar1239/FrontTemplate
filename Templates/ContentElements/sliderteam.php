@@ -2,7 +2,7 @@
 
 <div class="container">
     <div class="row">
-        <div class="col-sm-10 col-md-offset-2">
+        <div class="">
             <div class="ce-slider">
 
                 <?php foreach ($slides as $slide) { ?>

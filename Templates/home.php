@@ -24,19 +24,7 @@
     <?php include 'ContentElements/platzhalter.php'; ?>
     <?php include 'ContentElements/qualitypromise.php'; ?>
     <?php include 'ContentElements/team.php'; ?>
-    <?php
-    //************Slider team***************//
-    import('sliderteam', [
-        "slides" => [
-            0 => [
-                "image" => 'https://via.placeholder.com/921X413',
-            ],
-            1 => [
-                "image" => 'https://via.placeholder.com/922X413',
-            ]
-        ]
-    ]);
-    ?>
+
 
 </main>
 <?php include 'Partials/footer.php'; ?>
