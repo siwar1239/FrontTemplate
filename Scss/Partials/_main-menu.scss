@@ -14,7 +14,7 @@
         }
         .main-nav {
             position: absolute;
-            background-color: $color-dark-blue;
+            background-color: $color-blue;
             width: 80%;
             right: -80%;
             top: -12px;
@@ -110,11 +110,9 @@
                         }
                         a {
 
-                            font-weight: $font-weight-semi-bold;
                             text-transform: uppercase;
                             color: $color-white;
                             font-size: $font-size-large-mobile;
-                            line-height: $line-height-semi-large-mobile;
                             padding: 11px 0;
                             display: inline-block;
                             margin: 0 30px;
