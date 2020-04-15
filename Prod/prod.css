@@ -11420,7 +11420,9 @@ h1 {
   font-size: 12px;
   letter-spacing: 1.12px;
   font-family: "SourceSansPro-Bold";
-  text-align: center; }
+  text-align: center;
+  border-radius: 0px;
+  transform: skewX(-7deg); }
   @media (min-width: 990px) {
     .btn {
       font-size: 20px; } }
@@ -11432,6 +11434,18 @@ h1 {
   margin-bottom: 35px; }
   .col-sm-10.col-md-offset-2 .ce-button {
     text-align: left; }
+
+/*****Button kontakt******/
+.but-kontakt {
+  margin-top: 0px;
+  margin-bottom: 4px;
+  padding: 1.5px 20px; }
+
+.right-button {
+  text-align: right; }
+  @media (min-width: 990px) {
+    .right-button {
+      margin-right: 38px; } }
 
 /* ------------------------------------
 9. ContentElements
@@ -11591,11 +11605,43 @@ h1 {
       #team .container .title {
         font-size: 33px; } }
 
-#request-info .container {
+#logos-block .container {
   background: #FFFFFF; }
-  #request-info .container .paragraph {
-    text-align: center; }
-    #request-info .container .paragraph .title-body {
-      color: #4a9eb2;
-      font-size: 33px;
-      font-family: "SourceSansPro-Regular"; }
+  #logos-block .container .logos {
+    padding-top: 28px; }
+    @media (min-width: 768px) {
+      #logos-block .container .logos {
+        padding-top: 33px;
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+        width: 100%;
+        margin-bottom: -15; } }
+    #logos-block .container .logos figure {
+      margin: 0; }
+    #logos-block .container .logos .logo {
+      flex-basis: 33.333%;
+      text-align: center;
+      padding-left: 0px;
+      padding-right: 0px;
+      margin-bottom: 11px;
+      transform: scale(0.65);
+      transform-origin: left;
+      /* In case 3 logos on the last line */
+      /* In case 1 logo on the last line */ }
+      @media (min-width: 990px) {
+        #logos-block .container .logos .logo {
+          padding-left: 0px;
+          padding-right: 0px;
+          margin-bottom: 25px;
+          transform: none; } }
+      #logos-block .container .logos .logo .third-title-bis {
+        text-align: left; }
+      @media (min-width: 990px) {
+        #logos-block .container .logos .logo:nth-child(3n + 2) {
+          text-align: center; } }
+      @media (min-width: 990px) {
+        #logos-block .container .logos .logo.last-logo {
+          text-align: center; } }
+    #logos-block .container .logos .logo-holder {
+      display: inline-block; }

@@ -9,6 +9,8 @@
   letter-spacing: 1.12px;
   font-family: $font-family-bold;
   text-align: center;
+  border-radius: 0px;
+  transform: skewX(-7deg);
   @media (min-width: $screen-md-min) {
     font-size: $font-size-large;
   }
@@ -16,12 +18,23 @@
       color: $color-white;
   }
 }
-
 .ce-button {
   text-align: center;
   margin-bottom: 35px;
 
   @at-root .col-sm-10.col-md-offset-2 & {
     text-align: left;
+  }
+}
+/*****Button kontakt******/
+.but-kontakt{
+   margin-top:0px;
+   margin-bottom:4px;
+   padding: 1.5px 20px;
+ }
+.right-button{
+  text-align:right;
+  @media (min-width: $screen-md-min) {
+    margin-right:38px;
   }
 }

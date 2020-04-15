@@ -1,13 +1,63 @@
-#request-info{
+#logos-block{
   .container{
     background:$color-white;
-    .paragraph{
-      text-align:center;
-        .title-body{
-          color:$color-blue-text;
-          font-size:$font-size-extralarge;
-          font-family: $font-family-base;
+    .logos {
+      padding-top: 28px;
+      @media (min-width: $screen-sm-min) {
+        padding-top: 33px;
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+        width:100%;
+        margin-bottom: -15;
+
+      }
+
+      figure {
+        margin: 0;
+      }
+      .logo {
+        flex-basis: 33.333%;
+        text-align: center;
+        padding-left: $grid-gutter-width;
+        padding-right: $grid-gutter-width;
+
+        margin-bottom: 11px;
+        transform: scale(0.65);
+        transform-origin: left;
+        @media (min-width: $screen-md-min) {
+          padding-left: $grid-gutter-width / 2;
+          padding-right: $grid-gutter-width / 2;
+
+          margin-bottom: 25px;
+          transform: none;
         }
+        .third-title-bis {
+          text-align: left;
+        }
+
+        /* In case 3 logos on the last line */
+        &:nth-child(3n + 2) {
+          @media (min-width: $screen-md-min) {
+            text-align: center;
+          }
+        }
+
+
+
+
+
+        /* In case 1 logo on the last line */
+        &.last-logo {
+          @media (min-width: $screen-md-min) {
+            text-align: center;
+          }
+        }
+      }
+      .logo-holder {
+        display: inline-block;
+      }
     }
   }
+
 }
