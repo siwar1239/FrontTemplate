@@ -1,6 +1,7 @@
 <section id="aktuelles">
    <div class="container">
-       <span>Aktuelles</span>
+       <div class="title">Aktuelles</div>
+
        <div class="row">
            <div class="col-md-4 col-lg-4col-12">
                block1

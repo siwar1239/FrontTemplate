@@ -11455,12 +11455,12 @@ h1 {
 #aktuelles .container {
   background: #f1f6fa;
   text-align: center; }
-  #aktuelles .container span {
+  #aktuelles .container .title {
     font-size: 12px;
     font-family: "SourceSansPro-Regular";
     color: #4a9eb2; }
     @media (min-width: 990px) {
-      #aktuelles .container span {
+      #aktuelles .container .title {
         font-size: 33px; } }
 
 #platzhalter .container {
@@ -11517,3 +11517,14 @@ h1 {
     @media (min-width: 990px) {
       #platzhalter .container .row .block-quality ul li {
         font-size: 18px; } }
+
+#team .container {
+  background: #f1f6fa;
+  text-align: center; }
+  #team .container .title {
+    font-size: 12px;
+    font-family: "SourceSansPro-Regular";
+    color: #4a9eb2; }
+    @media (min-width: 990px) {
+      #team .container .title {
+        font-size: 33px; } }

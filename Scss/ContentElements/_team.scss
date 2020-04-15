@@ -1,4 +1,4 @@
-  #aktuelles{
+#team{
     .container{
       background:$color-blue-light;
       text-align:center;
@@ -6,10 +6,9 @@
         font-size: $font-size-default-mobile;
         font-family:$font-family-base;
         color:$color-blue-text;
-
         @media (min-width: $screen-md-min) {
           font-size: $font-size-extralarge;
         }
       }
     }
-  }
+}
