@@ -1,0 +1,30 @@
+.btn{
+  display: inline-block;
+  border: 2px solid $color-dark-blue;
+  color: $color-dark-blue;
+  text-transform: uppercase;
+  padding: 6.5px 36px;
+  font-size: $font-size-extra-small-mobile;
+  line-height: $line-height-extra-small-mobile;
+  letter-spacing: 1.12px;
+  font-weight: $font-weight-semi-bold;
+  @media (min-width: $screen-md-min) {
+    font-size: $font-size-default-mobile;
+    line-height: $line-height-default-mobile;
+    padding: 7px 37px;
+    letter-spacing: 1.48px;
+  }
+  &.btn-red{
+    border-color: $color-red;
+    color: $color-red;
+  }
+}
+
+.ce-button {
+  text-align: center;
+  margin-bottom: 52px;
+
+  @at-root .col-sm-10.col-md-offset-2 & {
+    text-align: left;
+  }
+}

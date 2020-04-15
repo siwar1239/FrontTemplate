@@ -1,3 +1,4 @@
+<?php require_once '../Inc/functions.php'; //function import()?>
 <?php include 'Globals/head.php'; ?>
 <main>
     <style>
@@ -12,7 +13,19 @@
     <?php include 'Partials/header.php'; ?>
     <?php include 'ContentElements/slider.php'; ?>
     <?php include 'ContentElements/blocks.php'; ?>
+    <?php
+    import('button', [
+        "content" => 'Ältere News laden'
+    ]);
+
+    ?>
     <?php include 'ContentElements/textbody.php'; ?>
+    <?php
+    import('button', [
+        "content" => 'Ältere News laden'
+    ]);
+
+    ?>
     <?php include 'ContentElements/aktuelles.php'; ?>
 </main>
 <?php include 'Partials/footer.php'; ?>
