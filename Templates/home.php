@@ -22,6 +22,7 @@
     <?php include 'ContentElements/textbody.php'; ?>
     <?php include 'ContentElements/aktuelles.php'; ?>
     <?php include 'ContentElements/platzhalter.php'; ?>
+    <?php include 'ContentElements/qualitypromise.php'; ?>
 
 
 </main>

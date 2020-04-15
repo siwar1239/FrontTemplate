@@ -65,7 +65,7 @@ gulp.task('processJs', done => {
         // './node_modules/jcf/js/jcf.checkbox.js',
         // './node_modules/jcf/js/jcf.radio.js',
         // './node_modules/body-scroll-lock/lib/bodyScrollLock.js',
-        // './node_modules/@fancyapps/fancybox/dist/jquery.fancybox.js',
+         //'./node_modules/@fancyapps/fancybox/dist/jquery.fancybox.js',
         // './node_modules/cookieconsent/src/cookieconsent.js',
         // 'Js/cookieconsent.js',
         //****************declaration js files****************//

@@ -1,12 +1,17 @@
 
 /* ------------------------------------
 1. Vendors & NPM components
------------------------------------- */
 
+------------------------------------ */
 @import "node_modules/slick-carousel/slick/slick.scss";
 /*@import "node_modules/bootstrap/dist/css/bootstrap.css";*/
 @import "node_modules/bootstrap/scss/bootstrap";
 @import "node_modules/bootstrap/scss/bootstrap-grid.scss";
+
+
+@import "Vendors/jquery.fancybox";
+
+
 /* ------------------------------------
 2. Basics
 ------------------------------------ */
@@ -65,6 +70,7 @@
 @import "ContentElements/textbody";
 @import "ContentElements/aktuelles";
 @import "ContentElements/platzhalter";
+@import "ContentElements/qualitypromise";
 
 
 

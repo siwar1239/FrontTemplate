@@ -1,17 +1,9 @@
-<section id="aktuelles">
+<section id="platzhalter">
    <div class="container">
-       <span>Aktuelles</span>
-       <div class="row">
-           <div class="col-md-4 col-lg-4col-12">
-               block1
-           </div>
-           <div class="col-md-4 col-lg-4col-12">
-               block2
-           </div>
-           <div class="col-md-4 col-lg-4col-12">
-               block3
-           </div>
+       <div class="title1">Persönlich für Sie da: +49 2306 7655-0 Kopie</div>
+       <div class="title2">Ihr Ärzteteam von WZAT</div>
+       <div class="image">
+           <img src="../../Img/platzhalter.jpg" class="py-3" >
        </div>
-
    </div>
 </section>
