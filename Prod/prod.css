@@ -11436,9 +11436,6 @@ h1 {
 /* ------------------------------------
 9. ContentElements
 ------------------------------------ */
-#slider .carousel-item img, #slider .active img {
-  /* height:500px;*/ }
-
 #blocks {
   margin: -14px 0px -14px 0px;
   text-align: center; }
@@ -11518,17 +11515,6 @@ h1 {
       #platzhalter .container .row .block-quality ul li {
         font-size: 18px; } }
 
-#team .container {
-  background: #f1f6fa;
-  text-align: center; }
-  #team .container .title {
-    font-size: 12px;
-    font-family: "SourceSansPro-Regular";
-    color: #4a9eb2; }
-    @media (min-width: 990px) {
-      #team .container .title {
-        font-size: 33px; } }
-
 .ce-slider {
   margin-bottom: 17px;
   /* the slides */
@@ -11592,3 +11578,24 @@ h1 {
       @media (min-width: 768px) {
         .ce-slider .slide-image.visible-on-mobile {
           display: none; } }
+
+#team .container {
+  background: #f1f6fa;
+  text-align: center; }
+  #team .container .title {
+    font-size: 12px;
+    font-family: "SourceSansPro-Regular";
+    color: #4a9eb2;
+    margin: 20px 0px 20px 0px; }
+    @media (min-width: 990px) {
+      #team .container .title {
+        font-size: 33px; } }
+
+#request-info .container {
+  background: #FFFFFF; }
+  #request-info .container .paragraph {
+    text-align: center; }
+    #request-info .container .paragraph .title-body {
+      color: #4a9eb2;
+      font-size: 33px;
+      font-family: "SourceSansPro-Regular"; }

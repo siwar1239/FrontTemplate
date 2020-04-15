@@ -24,6 +24,8 @@
     <?php include 'ContentElements/platzhalter.php'; ?>
     <?php include 'ContentElements/qualitypromise.php'; ?>
     <?php include 'ContentElements/team.php'; ?>
+    <?php include 'ContentElements/logos.php'; ?>
+
 
 
 </main>
