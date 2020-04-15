@@ -1,0 +1,30 @@
+  #platzhalter{
+    .container{
+           background:$color-white;
+            text-align:center;
+          .title1{
+            margin-top:24px;
+            font-size: $font-size-default-mobile;
+            font-family:$font-family-base;
+            color:$color-green;
+            @media (min-width: $screen-md-min) {
+              font-size: $font-size-extralarge;
+            }
+          }
+          .title2{
+            margin:40px 0px 40px 0px;
+            font-size: $font-size-default-mobile;
+            font-family:$font-family-base;
+            color:$color-blue-text;
+            @media (min-width: $screen-md-min) {
+              font-size: $font-size-extralarge;
+            }
+          }
+
+          img{
+              max-width: 100%;
+              height: auto;
+          }
+
+    }
+  }
