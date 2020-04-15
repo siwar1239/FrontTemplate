@@ -3,13 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="9f87c767-7d8b-480c-bd9d-1bca28336790" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/Prod/prod.css" beforeDir="false" afterPath="$PROJECT_DIR$/Prod/prod.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Prod/prod.js" beforeDir="false" afterPath="$PROJECT_DIR$/Prod/prod.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scss/ContentElements/aktuelles.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scss/ContentElements/platzhalter.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Scss/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Templates/ContentElements/platzhalter.php" beforeDir="false" afterPath="$PROJECT_DIR$/Templates/ContentElements/platzhalter.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Templates/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/Templates/home.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scss/Base/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Scss/Base/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scss/ContentElements/_qualitypromise.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Scss/ContentElements/_qualitypromise.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Templates/ContentElements/qualitypromise.php" beforeDir="false" afterPath="$PROJECT_DIR$/Templates/ContentElements/qualitypromise.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,8 +32,8 @@
           <entry key="json" value="4" />
           <entry key="map" value="1" />
           <entry key="md" value="2" />
-          <entry key="php" value="35" />
-          <entry key="scss" value="61" />
+          <entry key="php" value="36" />
+          <entry key="scss" value="62" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
@@ -47,9 +43,9 @@
           <entry key="JSON" value="4" />
           <entry key="JavaScript" value="12" />
           <entry key="Markdown" value="2" />
-          <entry key="PHP" value="35" />
+          <entry key="PHP" value="36" />
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="SCSS" value="61" />
+          <entry key="SCSS" value="62" />
           <entry key="SourceMap" value="1" />
         </counts>
       </usages-collector>
@@ -58,17 +54,17 @@
           <entry key="css" value="6" />
           <entry key="gitignore" value="14" />
           <entry key="js" value="120" />
-          <entry key="php" value="1088" />
-          <entry key="scss" value="1094" />
+          <entry key="php" value="1200" />
+          <entry key="scss" value="1160" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="6" />
           <entry key="JavaScript" value="120" />
-          <entry key="PHP" value="1088" />
+          <entry key="PHP" value="1200" />
           <entry key="PLAIN_TEXT" value="14" />
-          <entry key="SCSS" value="1094" />
+          <entry key="SCSS" value="1160" />
         </counts>
       </usages-collector>
     </session>
@@ -87,8 +83,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Scss/Base/_variables.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="23" selection-start-line="23" selection-end-line="23" selection-end-column="17" />
+            <state relative-caret-position="408">
+              <caret line="33" selection-start-line="33" selection-end-line="33" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -103,15 +99,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gulpfile.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="67" column="11" selection-start-line="67" selection-start-column="11" selection-end-line="67" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Templates/home.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="357">
@@ -121,10 +108,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Templates/ContentElements/platzhalter.php">
+        <entry file="file://$PROJECT_DIR$/Templates/ContentElements/qualitypromise.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
-              <caret line="5" column="59" selection-start-line="5" selection-start-column="59" selection-end-line="5" selection-end-column="59" />
+              <caret line="5" column="38" lean-forward="true" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Scss/ContentElements/_qualitypromise.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="50" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -179,7 +175,6 @@
         <option value="$PROJECT_DIR$/Scss/Partials/_body.scss" />
         <option value="$PROJECT_DIR$/Inc/functions.php" />
         <option value="$PROJECT_DIR$/Scss/Base/_font-faces.scss" />
-        <option value="$PROJECT_DIR$/Scss/Base/_variables.scss" />
         <option value="$PROJECT_DIR$/Templates/ContentElements/blocks.php" />
         <option value="$PROJECT_DIR$/Scss/Partials/_header.scss" />
         <option value="$PROJECT_DIR$/Templates/ContentElements/button.php" />
@@ -197,6 +192,9 @@
         <option value="$PROJECT_DIR$/Scss/ContentElements/platzhalter.scss" />
         <option value="$PROJECT_DIR$/Scss/main.scss" />
         <option value="$PROJECT_DIR$/Templates/home.php" />
+        <option value="$PROJECT_DIR$/Templates/ContentElements/qualitypromise.php" />
+        <option value="$PROJECT_DIR$/Scss/Base/_variables.scss" />
+        <option value="$PROJECT_DIR$/Scss/ContentElements/_qualitypromise.scss" />
       </list>
     </option>
   </component>
@@ -243,7 +241,24 @@
             <path>
               <item name="FrontTemplate" type="b2602c69:ProjectViewProjectNode" />
               <item name="FrontTemplate" type="462c0819:PsiDirectoryNode" />
+              <item name="Scss" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FrontTemplate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FrontTemplate" type="462c0819:PsiDirectoryNode" />
+              <item name="Scss" type="462c0819:PsiDirectoryNode" />
+              <item name="ContentElements" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FrontTemplate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FrontTemplate" type="462c0819:PsiDirectoryNode" />
               <item name="Templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FrontTemplate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FrontTemplate" type="462c0819:PsiDirectoryNode" />
+              <item name="Templates" type="462c0819:PsiDirectoryNode" />
+              <item name="ContentElements" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="FrontTemplate" type="b2602c69:ProjectViewProjectNode" />
@@ -290,12 +305,12 @@
       <updated>1586788827278</updated>
       <workItem from="1586788833911" duration="330000" />
       <workItem from="1586789176734" duration="1993000" />
-      <workItem from="1586846601504" duration="42313000" />
+      <workItem from="1586846601504" duration="42915000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44636000" />
+    <option name="totallyTimeSpent" value="45238000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -354,14 +369,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/node_modules/bootstrap/scss/bootstrap.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-153" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/bootstrap/scss/bootstrap-grid.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Scss/Partials/_header1.scss">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -617,13 +624,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Scss/Base/_variables.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="23" selection-start-line="23" selection-end-line="23" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/@fancyapps/fancybox/dist/jquery.fancybox.css">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -663,6 +663,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="24" column="49" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Templates/ContentElements/qualitypromise.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="38" lean-forward="true" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scss/Base/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="33" selection-start-line="33" selection-end-line="33" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scss/ContentElements/_qualitypromise.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="50" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
         </state>
       </provider>
     </entry>
