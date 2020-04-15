@@ -10692,7 +10692,7 @@ h1 {
 
 .ce-button {
   text-align: center;
-  margin-bottom: 52px; }
+  margin-bottom: 35px; }
   .col-sm-10.col-md-offset-2 .ce-button {
     text-align: left; }
 
@@ -10703,7 +10703,8 @@ h1 {
   /* height:500px;*/ }
 
 #blocks {
-  margin: -14px 0px -14px 0px; }
+  margin: -14px 0px -14px 0px;
+  text-align: center; }
 
 #request-info .container {
   background: #FFFFFF; }
@@ -10716,3 +10717,11 @@ h1 {
 
 #aktuelles .container {
   background: #f1f6fa; }
+  #aktuelles .container span {
+    text-align: center;
+    font-size: 12px;
+    font-family: "SourceSansPro-Regular";
+    color: #4a9eb2; }
+    @media (min-width: 990px) {
+      #aktuelles .container span {
+        font-size: 33px; } }
