@@ -69,11 +69,10 @@ gulp.task('processJs', done => {
         // './node_modules/cookieconsent/src/cookieconsent.js',
         // 'Js/cookieconsent.js',
         //****************declaration js files****************//
+        'node_modules/bootstrap/dist/js/bootstrap.js.map',
         'node_modules/bootstrap/dist/js/bootstrap.js',
         'Js/main.js'
-
     ])
-
     // For production
         .pipe(concat('prod.js'))
         .pipe(gulp.dest('Prod'))
