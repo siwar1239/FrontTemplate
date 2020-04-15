@@ -14,18 +14,12 @@
     <?php include 'ContentElements/slider.php'; ?>
     <?php include 'ContentElements/blocks.php'; ?>
     <?php
-    import('button', [
-        "content" => 'Ältere News laden'
+    /* import('button', [
+        "content" => 'Information oder Broschüre anfordern >'
     ]);
-
+    */
     ?>
     <?php include 'ContentElements/textbody.php'; ?>
-    <?php
-    import('button', [
-        "content" => 'Ältere News laden'
-    ]);
-
-    ?>
     <?php include 'ContentElements/aktuelles.php'; ?>
 </main>
 <?php include 'Partials/footer.php'; ?>

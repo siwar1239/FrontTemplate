@@ -1,10 +1,15 @@
-section{
-  #request-info{
-    span{
-      .title-body{
-        font-size:$font-size-extralarge;
+  #aktuelles{
+    .container{
+      background:$color-blue-light;
+      span{
+        font-size: $font-size-default-mobile;
+        font-family:
+        color:$color-blue-text;
+        @media (min-width: $screen-md-min) {
+          font-size: $font-size-extralarge;
+        }
+
+
       }
     }
-
   }
-}

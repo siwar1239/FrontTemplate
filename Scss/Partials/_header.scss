@@ -18,18 +18,10 @@
                 margin: 0;
                 margin-top: 5px;
                 padding: 0;
-                max-width: 75%;
                 white-space: nowrap;
                 overflow: hidden;
                 background-repeat: no-repeat;
                 background-size: contain;
-            }
-            img {
-                width: 174px;
-                max-width: 100%;
-                @media (max-width: $screen-sm-max) {
-                    width: 60%;
-                }
             }
         }
     }

@@ -22,6 +22,8 @@ $font-style-italic: italic;
 
 /* Font family */
 $font-family-base: "SourceSansPro-Regular";
+$font-family-bold: "SourceSansPro-Bold";
+
 
 
 /* ------------------------------------
@@ -30,12 +32,28 @@ $font-family-base: "SourceSansPro-Regular";
 $font-size-largest:                 36px;
 $font-size-extralarge:              33px;
 $font-size-larger:                  24px;
-$font-size-large:                   22px;
+$font-size-large:                   20px;
 $font-size-medium:                  16px;
 $font-size-medium-bis:              15px;
 $font-size-default:                 14px;
 $font-size-small:                   13px;
 $font-size-extra-small:             12px;
+
+/* ------------------------------------
+  -Mobile Font sizes
+ ------------------------------------ */
+$font-size-404-mobile:              65px;
+$font-size-largest-mobile:          25px;
+$font-size-extralarge-mobile:       18px;
+$font-size-x-larger-mobile:         16px;
+$font-size-larger-mobile:           15px;
+$font-size-large-mobile:            14px;
+$font-size-medium-mobile:           13px;
+$font-size-default-mobile:          12px;
+$font-size-small-mobile:            11px;
+$font-size-smaller-mobile:          10px;
+$font-size-extra-small-mobile:       9px;
+
 
 
 /* Button paddings */

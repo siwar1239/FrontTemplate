@@ -8,3 +8,13 @@ $font-path: "../Fonts/";
   src: local('SourceSansPro-Regular'),
   url('#{$font-path}SourceSansPro-Regular.ttf') format('truetype'); /* Safari, Android, iOS */
 }
+
+/* SourceSansPro-Bold */
+@font-face {
+  font-family: 'SourceSansPro-Bold';
+  font-style: normal;
+  font-weight: 700;
+  src: url('#{$font-path}SourceSansPro-Bold.ttf'); /* IE9 Compat Modes */
+  src: local('SourceSansPro-Bold'),
+  url('#{$font-path}SourceSansPro-Bold.ttf') format('truetype'); /* Safari, Android, iOS */
+}
