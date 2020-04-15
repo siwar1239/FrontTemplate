@@ -9875,15 +9875,15 @@ Very convenient
 =======================================
 But don't forget to hide these when going live!
 ------------------------------------ */
-/* open-sans-300 - latin */
+/* SourceSansPro-Regular */
 @font-face {
   font-family: 'SourceSansPro-Regular';
   font-style: normal;
   font-weight: 300;
   src: url("../Fonts/SourceSansPro-Regular.ttf");
   /* IE9 Compat Modes */
-  src: local("Open Sans Light"), local("OpenSans-Light"), url("../Fonts/open-sans-v17-latin-300.eot?#iefix") format("embedded-opentype"), url("../Fonts/open-sans-v17-latin-300.woff2") format("woff2"), url("../Fonts/open-sans-v17-latin-300.woff") format("woff"), url("../Fonts/open-sans-v17-latin-300.ttf") format("truetype"), url("../Fonts/open-sans-v17-latin-300.svg#OpenSans") format("svg");
-  /* Legacy iOS */ }
+  src: local("SourceSansPro-Regular"), url("../Fonts/SourceSansPro-Regular.ttf") format("truetype");
+  /* Safari, Android, iOS */ }
 
 /* ------------------------------------
 Z-Indeces
@@ -10652,6 +10652,9 @@ Example for 5 columns (12 ÷ 5 = 2.4) and breakpoint 'sm':
   #header .menu h2 {
     float: right; }
 
+main {
+  background: #edf6f1; }
+
 #footer {
   background: red; }
   #footer .container-fluid, #footer .container-sm, #footer .container-md, #footer .container-lg, #footer .container-xl {
@@ -10674,7 +10677,8 @@ h1 {
 
 #request-info span .title-body {
   color: #4a9eb2;
-  font-size: 33px; }
+  font-size: 33px;
+  font-family: "SourceSansPro-Regular"; }
 
 section #request-info span .title-body {
   font-size: 33px; }
