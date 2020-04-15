@@ -10689,6 +10689,8 @@ h1 {
   @media (min-width: 990px) {
     .btn {
       font-size: 20px; } }
+  .btn:hover {
+    color: #FFFFFF; }
 
 .ce-button {
   text-align: center;
@@ -10714,6 +10716,17 @@ h1 {
       color: #4a9eb2;
       font-size: 33px;
       font-family: "SourceSansPro-Regular"; }
+
+#aktuelles .container {
+  background: #f1f6fa;
+  text-align: center; }
+  #aktuelles .container span {
+    font-size: 12px;
+    font-family: "SourceSansPro-Regular";
+    color: #4a9eb2; }
+    @media (min-width: 990px) {
+      #aktuelles .container span {
+        font-size: 33px; } }
 
 #aktuelles .container {
   background: #f1f6fa;

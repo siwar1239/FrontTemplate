@@ -12,6 +12,9 @@
   @media (min-width: $screen-md-min) {
     font-size: $font-size-large;
   }
+  &:hover {
+      color: $color-white;
+  }
 }
 
 .ce-button {

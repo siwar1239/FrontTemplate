@@ -21,6 +21,9 @@
     ?>
     <?php include 'ContentElements/textbody.php'; ?>
     <?php include 'ContentElements/aktuelles.php'; ?>
+    <?php include 'ContentElements/platzhalter.php'; ?>
+
+
 </main>
 <?php include 'Partials/footer.php'; ?>
 <?php include 'Globals/foot.php'; ?>
