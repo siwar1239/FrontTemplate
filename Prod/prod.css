@@ -11497,8 +11497,23 @@ h1 {
     @media (min-width: 990px) {
       #platzhalter .container .title2 {
         font-size: 33px; } }
-  #platzhalter .container row .block-quality .title-block {
+  #platzhalter .container .row .block-quality .title-block {
     margin-bottom: 20px;
     color: #4a9eb2;
     font-size: 26px;
     font-family: "SourceSansPro-Regular"; }
+  #platzhalter .container .row .block-quality ul li {
+    color: #000000;
+    font-family: "SourceSansPro-Regular";
+    font-size: 12px;
+    text-align: start;
+    list-style: none; }
+    #platzhalter .container .row .block-quality ul li:before {
+      content: "\25a0";
+      font-size: 8px;
+      vertical-align: middle;
+      color: #4a9eb2;
+      padding-right: 2px; }
+    @media (min-width: 990px) {
+      #platzhalter .container .row .block-quality ul li {
+        font-size: 18px; } }

@@ -1,5 +1,5 @@
 #platzhalter{
-    .container{
+  .container{
            background:$color-white;
            text-align:center;
           .title2{
@@ -11,7 +11,7 @@
               font-size: $font-size-extralarge;
             }
           }
-          row{
+          .row{
               .block-quality{
                   .title-block{
                     margin-bottom:20px;
@@ -19,8 +19,27 @@
                     font-size:$font-size-larger;
                     font-family:$font-family-base;
                   }
+                  ul{
+                    li{
+                      color:$color-black;
+                      font-family:$font-family-base;
+                      font-size: $font-size-default-mobile;
+                      text-align: start;
+                      list-style: none;
+                      &:before {
+                        content: "\25a0";
+                        font-size:$font-size-extra-small2;
+                        vertical-align:middle;
+                        color:$color-blue-text;
+                        padding-right: 2px;
+                      }
+                      @media (min-width: $screen-md-min) {
+                      font-size: $font-size-medium;
+                      }
+                    }
+                  }
 
               }
           }
-    }
+   }
 }
