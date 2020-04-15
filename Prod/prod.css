@@ -10655,7 +10655,7 @@ Example for 5 columns (12 ÷ 5 = 2.4) and breakpoint 'sm':
 #footer {
   background: red; }
   #footer .container-fluid, #footer .container-sm, #footer .container-md, #footer .container-lg, #footer .container-xl {
-    background: red; }
+    background: #878787; }
 
 /* ------------------------------------
 7. Conditionals
