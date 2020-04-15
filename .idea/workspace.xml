@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f87c767-7d8b-480c-bd9d-1bca28336790" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Templates/ContentElements/aktuelles .php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Templates/Partials/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/Templates/Partials/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Templates/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/Templates/home.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scss/Partials/_body.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Scss/Partials/_body.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,7 +30,7 @@
           <entry key="map" value="1" />
           <entry key="md" value="2" />
           <entry key="php" value="17" />
-          <entry key="scss" value="38" />
+          <entry key="scss" value="39" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
@@ -44,7 +42,7 @@
           <entry key="Markdown" value="2" />
           <entry key="PHP" value="17" />
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="SCSS" value="38" />
+          <entry key="SCSS" value="39" />
           <entry key="SourceMap" value="1" />
         </counts>
       </usages-collector>
@@ -109,15 +107,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node_modules/bootstrap/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="187" column="123" selection-start-line="187" selection-start-column="123" selection-end-line="187" selection-end-column="123" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Scss/Base/_colors.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
@@ -144,13 +133,18 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Templates/Partials/footer.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
               <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Scss/Partials/_body.scss">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -189,7 +183,6 @@
         <option value="$PROJECT_DIR$/Scss/ContentElements/_blocks.scss" />
         <option value="$PROJECT_DIR$/Prod/prod.css" />
         <option value="$PROJECT_DIR$/Scss/Partials/_header.scss" />
-        <option value="$PROJECT_DIR$/Scss/Partials/_body.scss" />
         <option value="$PROJECT_DIR$/Scss/Base/_development-utilities.scss" />
         <option value="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap-grid.css" />
         <option value="$PROJECT_DIR$/Scss/Base/_bootstrap-grid.scss" />
@@ -208,6 +201,7 @@
         <option value="$PROJECT_DIR$/Templates/home.php" />
         <option value="$PROJECT_DIR$/Templates/ContentElements/aktuelles.php" />
         <option value="$PROJECT_DIR$/Templates/Partials/footer.php" />
+        <option value="$PROJECT_DIR$/Scss/Partials/_body.scss" />
       </list>
     </option>
   </component>
@@ -335,22 +329,23 @@
       <updated>1586788827278</updated>
       <workItem from="1586788833911" duration="330000" />
       <workItem from="1586789176734" duration="1993000" />
-      <workItem from="1586846601504" duration="29236000" />
+      <workItem from="1586846601504" duration="29381000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31559000" />
+    <option name="totallyTimeSpent" value="31704000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" sideWeight="0.5013477" side_tool="true" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.49932706" visible="true" weight="0.20948827" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49932706" visible="true" weight="0.20948827" />
       <window_info id="Structure" order="2" sideWeight="0.50067294" side_tool="true" weight="0.15938303" />
       <window_info id="Gulp" order="3" side_tool="true" />
       <window_info id="npm" order="4" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.34561214" />
+      <window_info anchor="bottom" id="Terminal" order="0" visible="true" weight="0.34561214" />
       <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" weight="0.108342364" />
       <window_info anchor="bottom" id="Version Control" order="3" show_stripe_button="false" />
@@ -490,13 +485,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="9928" column="15" selection-start-line="9928" selection-start-column="15" selection-end-line="9928" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scss/Partials/_body.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -669,6 +657,9 @@
           <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scss/Partials/_body.scss">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
