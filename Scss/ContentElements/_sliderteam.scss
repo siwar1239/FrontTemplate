@@ -1,0 +1,79 @@
+.ce-slider {
+    margin-bottom: 17px;
+    @media (min-width: $screen-sm-min) {
+        margin-bottom: 24px;
+        overflow: hidden;
+        @media screen and (-ms-high-contrast: active), screen and (-ms-high-contrast: none) {
+            overflow: visible;
+        }
+    }
+    &.single-image {
+        @media (min-width: $screen-sm-min) {
+            .slick-list {
+                margin-left: 0;
+                margin-right: 0;
+            }
+            .slick-track {
+                width: 100% !important;
+                .slick-slide {
+                    width: 100% !important;
+                    margin-left: 0;
+                    margin-right: 0;
+                }
+            }
+        }
+    }
+    /* the slides */
+    .slick-slide {
+        @media (min-width: $screen-sm-min) {
+            margin-left: calc(#{$grid-gutter-width} / 2);
+            margin-right: calc(#{$grid-gutter-width} / 2);
+        }
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+    /* the parent */
+    .slick-list {
+        margin-left: -$grid-gutter-width;
+        margin-right: -$grid-gutter-width;
+        @media (min-width: $screen-sm-min) {
+            margin-left: calc(#{-$grid-gutter-width} / 2);
+            margin-right: calc(#{-$grid-gutter-width} / 2);
+        }
+    }
+    .triangle {
+        z-index: $z-index-1;
+        position: absolute;
+        top: 49%;
+        left: calc(8px - #{$grid-gutter-width} / 2);
+        transform: translateY(-50%);
+        &.slick-disabled{
+            display: none !important;
+        }
+        @media (min-width: $screen-sm-min) {
+            left: 8px;
+        }
+        &.right {
+            transform: translateY(-50%) rotate(180deg);
+            left: auto;
+            right: calc(8px - #{$grid-gutter-width} / 2);
+            @media (min-width: $screen-sm-min) {
+                right: 8px;
+            }
+        }
+    }
+    .slide-image {
+        display: none;
+        @media (min-width: $screen-sm-min) {
+            display: block;
+        }
+        &.visible-on-mobile {
+            display: block;
+            @media (min-width: $screen-sm-min) {
+                display: none;
+            }
+        }
+    }
+}

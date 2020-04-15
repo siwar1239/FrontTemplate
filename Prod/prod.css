@@ -11528,3 +11528,67 @@ h1 {
     @media (min-width: 990px) {
       #team .container .title {
         font-size: 33px; } }
+
+.ce-slider {
+  margin-bottom: 17px;
+  /* the slides */
+  /* the parent */ }
+  @media (min-width: 768px) {
+    .ce-slider {
+      margin-bottom: 24px;
+      overflow: hidden; } }
+  @media screen and (min-width: 768px) and (-ms-high-contrast: active), screen and (min-width: 768px) and (-ms-high-contrast: none) {
+    .ce-slider {
+      overflow: visible; } }
+  @media (min-width: 768px) {
+    .ce-slider.single-image .slick-list {
+      margin-left: 0;
+      margin-right: 0; }
+    .ce-slider.single-image .slick-track {
+      width: 100% !important; }
+      .ce-slider.single-image .slick-track .slick-slide {
+        width: 100% !important;
+        margin-left: 0;
+        margin-right: 0; } }
+  @media (min-width: 768px) {
+    .ce-slider .slick-slide {
+      margin-left: calc(0px / 2);
+      margin-right: calc(0px / 2); } }
+  .ce-slider .slick-slide img {
+    width: 100%;
+    height: auto; }
+  .ce-slider .slick-list {
+    margin-left: 0px;
+    margin-right: 0px; }
+    @media (min-width: 768px) {
+      .ce-slider .slick-list {
+        margin-left: calc(0px / 2);
+        margin-right: calc(0px / 2); } }
+  .ce-slider .triangle {
+    z-index: 1;
+    position: absolute;
+    top: 49%;
+    left: calc(8px - 0px / 2);
+    transform: translateY(-50%); }
+    .ce-slider .triangle.slick-disabled {
+      display: none !important; }
+    @media (min-width: 768px) {
+      .ce-slider .triangle {
+        left: 8px; } }
+    .ce-slider .triangle.right {
+      transform: translateY(-50%) rotate(180deg);
+      left: auto;
+      right: calc(8px - 0px / 2); }
+      @media (min-width: 768px) {
+        .ce-slider .triangle.right {
+          right: 8px; } }
+  .ce-slider .slide-image {
+    display: none; }
+    @media (min-width: 768px) {
+      .ce-slider .slide-image {
+        display: block; } }
+    .ce-slider .slide-image.visible-on-mobile {
+      display: block; }
+      @media (min-width: 768px) {
+        .ce-slider .slide-image.visible-on-mobile {
+          display: none; } }
