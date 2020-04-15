@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f87c767-7d8b-480c-bd9d-1bca28336790" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Scss/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Templates/ContentElements/aktuelles .php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Templates/Partials/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/Templates/Partials/footer.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Templates/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/Templates/home.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,7 +31,7 @@
           <entry key="json" value="4" />
           <entry key="map" value="1" />
           <entry key="md" value="2" />
-          <entry key="php" value="15" />
+          <entry key="php" value="17" />
           <entry key="scss" value="38" />
           <entry key="txt" value="1" />
         </counts>
@@ -41,7 +42,7 @@
           <entry key="JSON" value="4" />
           <entry key="JavaScript" value="9" />
           <entry key="Markdown" value="2" />
-          <entry key="PHP" value="15" />
+          <entry key="PHP" value="17" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="SCSS" value="38" />
           <entry key="SourceMap" value="1" />
@@ -52,7 +53,7 @@
           <entry key="css" value="6" />
           <entry key="gitignore" value="14" />
           <entry key="js" value="114" />
-          <entry key="php" value="770" />
+          <entry key="php" value="886" />
           <entry key="scss" value="497" />
         </counts>
       </usages-collector>
@@ -60,7 +61,7 @@
         <counts>
           <entry key="CSS" value="6" />
           <entry key="JavaScript" value="114" />
-          <entry key="PHP" value="770" />
+          <entry key="PHP" value="886" />
           <entry key="PLAIN_TEXT" value="14" />
           <entry key="SCSS" value="497" />
         </counts>
@@ -98,7 +99,7 @@
           <provider editor-type-id="sourcemapFileViewerProvider" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Scss/main.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="400">
@@ -128,29 +129,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Templates/home.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="289">
+              <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node_modules/bootstrap/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="473">
-                <caret line="98" column="12" selection-start-line="98" selection-start-column="12" selection-end-line="98" selection-end-column="12" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Scss/Partials/_footer.scss">
+        <entry file="file://$PROJECT_DIR$/Templates/ContentElements/aktuelles.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+            <state relative-caret-position="153">
+              <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Templates/Partials/footer.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -201,14 +199,15 @@
         <option value="$PROJECT_DIR$/Scss/Base/_variables.scss" />
         <option value="$PROJECT_DIR$/Templates/ContentElements/text-request-info.php" />
         <option value="$PROJECT_DIR$/Scss/ContentElements/_text-request-info.scss" />
-        <option value="$PROJECT_DIR$/Templates/Partials/footer.php" />
         <option value="$PROJECT_DIR$/Scss/Partials/_footer.scss" />
         <option value="$PROJECT_DIR$/Prod/prod.js" />
         <option value="$PROJECT_DIR$/Scss/ContentElements/_textbody.scss" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/Scss/Base/_colors.scss" />
-        <option value="$PROJECT_DIR$/Templates/home.php" />
         <option value="$PROJECT_DIR$/Scss/main.scss" />
+        <option value="$PROJECT_DIR$/Templates/home.php" />
+        <option value="$PROJECT_DIR$/Templates/ContentElements/aktuelles.php" />
+        <option value="$PROJECT_DIR$/Templates/Partials/footer.php" />
       </list>
     </option>
   </component>
@@ -336,23 +335,22 @@
       <updated>1586788827278</updated>
       <workItem from="1586788833911" duration="330000" />
       <workItem from="1586789176734" duration="1993000" />
-      <workItem from="1586846601504" duration="28356000" />
+      <workItem from="1586846601504" duration="29236000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30679000" />
+    <option name="totallyTimeSpent" value="31559000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" sideWeight="0.5013477" side_tool="true" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49932706" visible="true" weight="0.20948827" />
+      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.49932706" visible="true" weight="0.20948827" />
       <window_info id="Structure" order="2" sideWeight="0.50067294" side_tool="true" weight="0.15938303" />
       <window_info id="Gulp" order="3" side_tool="true" />
       <window_info id="npm" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="0" visible="true" weight="0.34561214" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.34561214" />
       <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" weight="0.108342364" />
       <window_info anchor="bottom" id="Version Control" order="3" show_stripe_button="false" />
@@ -575,13 +573,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Templates/Partials/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="35" lean-forward="true" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Scss/Partials/_footer.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -651,17 +642,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Templates/home.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Scss/main.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
           <caret line="64" column="34" selection-start-line="64" selection-start-column="34" selection-end-line="64" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Templates/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Templates/ContentElements/aktuelles.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Templates/Partials/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
         </state>
       </provider>
     </entry>

@@ -14,8 +14,6 @@
     <?php include 'ContentElements/blocks.php'; ?>
     <?php include 'ContentElements/textbody.php'; ?>
     <?php include 'ContentElements/aktuelles.php'; ?>
-
-
-    <?php include 'Partials/footer.php'; ?>
 </main>
+<?php include 'Partials/footer.php'; ?>
 <?php include 'Globals/foot.php'; ?>
