@@ -10672,7 +10672,8 @@ h1 {
 #slider .carousel-item img, #slider .active img {
   /* height:500px;*/ }
 
-section #request-info span .title-body {
+#request-info span .title-body {
+  color: #4a9eb2;
   font-size: 33px; }
 
 section #request-info span .title-body {
