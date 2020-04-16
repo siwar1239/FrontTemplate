@@ -4,7 +4,7 @@
     <div class="row">
             <div class="ce-slider w-100">
                 <?php foreach ($slides as $slide) { ?>
-                    <div class="col-lg-3 col-md-3 col-sm-6 col-12 slide w-100">
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-6 w-100 mb-3 slide ">
                         <a href="<?php echo $slide['image']; ?>" data-fancybox="fancyval-1" title="" data-toolbar=false data-infobar=false>
                             <img src="<?php echo $slide['image']; ?>" alt="" class="slide-image">
                         </a>

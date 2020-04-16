@@ -38,3 +38,26 @@
     margin-right:38px;
   }
 }
+/*****Button Zuweiser header******/
+
+.btn-Zuweiser{
+  display: inline-block;
+  color: $color-white;
+  background:$color-blue;
+  padding: 6.5px 10px;
+  font-family: $font-family-bold;
+  text-align: center;
+  width: max-content;
+  border-radius: 0px;
+  transform: skewX(-7deg);
+  border-left: 1px solid $color-white;
+  border-right: 1px solid $color-white;
+  display:none;
+  @media (min-width: $screen-md-min) {
+    font-size: $font-size-extraa-small;
+    display:block;
+  }
+  &:hover {
+    color: $color-white;
+  }
+}

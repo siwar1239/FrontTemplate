@@ -7,6 +7,27 @@
     /*Band top */
     .head-top{
         background-color: $color-grey;
+        display:none;
+        .container{
+            .row{
+                .header-top-cols {
+
+                }
+                .menu-top-right{
+                    text-align: right;
+                    color: $color-white;
+                    font-size:$font-size-medium-bis;
+                    font-family:$font-family-base;
+                    top: 2px;
+                }
+            }
+        }
+        /***display head-top part***/
+        @media (min-width: $screen-md-min) {
+            display:block;
+        }
+
+
     }
 
 
@@ -27,10 +48,18 @@
     }
     .menu{
         .menu-nav {
-            float: right;
-            background:red;
+            h2{
+                float: right;
+                background:yellow;
+                font-size: $font-size-default-mobile;
+                font-family:$font-family-base;
+                color:$color-blue-text;
+            }
+
+
         }
     }
+
 }
 
 

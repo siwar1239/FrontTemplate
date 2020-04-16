@@ -11379,7 +11379,18 @@ Example for 5 columns (12 ÷ 5 = 2.4) and breakpoint 'sm':
   /*Band top */
   /******logo********/ }
   #header .head-top {
-    background-color: #878787; }
+    background-color: #878787;
+    display: none;
+    /***display head-top part***/ }
+    #header .head-top .container .row .menu-top-right {
+      text-align: right;
+      color: #FFFFFF;
+      font-size: 16px;
+      font-family: "SourceSansPro-Regular";
+      top: 2px; }
+    @media (min-width: 990px) {
+      #header .head-top {
+        display: block; } }
   #header .logo {
     float: left; }
     #header .logo a .logo-a {
@@ -11390,8 +11401,15 @@ Example for 5 columns (12 ÷ 5 = 2.4) and breakpoint 'sm':
       overflow: hidden;
       background-repeat: no-repeat;
       background-size: contain; }
-  #header .menu h2 {
-    float: right; }
+  #header .menu .menu-nav h2 {
+    float: right;
+    background: yellow;
+    font-size: 12px;
+    font-family: "SourceSansPro-Regular";
+    color: #4a9eb2; }
+
+html, body {
+  height: 100%; }
 
 main {
   background: #edf6f1; }
@@ -11447,12 +11465,55 @@ h1 {
     .right-button {
       margin-right: 38px; } }
 
+/*****Button Zuweiser header******/
+.btn-Zuweiser {
+  display: inline-block;
+  color: #FFFFFF;
+  background: #4b82bd;
+  padding: 6.5px 10px;
+  font-family: "SourceSansPro-Bold";
+  text-align: center;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  border-radius: 0px;
+  transform: skewX(-7deg);
+  border-left: 1px solid #FFFFFF;
+  border-right: 1px solid #FFFFFF;
+  display: none; }
+  @media (min-width: 990px) {
+    .btn-Zuweiser {
+      font-size: 11px;
+      display: block; } }
+  .btn-Zuweiser:hover {
+    color: #FFFFFF; }
+
 /* ------------------------------------
 9. ContentElements
 ------------------------------------ */
 #blocks {
   margin: -14px 0px -14px 0px;
   text-align: center; }
+  #blocks .image:hover .overlay {
+    opacity: 1; }
+  #blocks .image .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease; }
+    #blocks .image .overlay .hover-part {
+      color: white;
+      font-size: 20px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center; }
 
 #request-info .container {
   background: #FFFFFF; }

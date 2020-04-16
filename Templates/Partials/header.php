@@ -1,7 +1,23 @@
 <header id="header">
     <div class="container-fluid head-top">
         <div class="container">
-            aaaaaaaaaaa
+            <div class="row">
+                <div class="header-top-cols w-100">
+                    <div class="col-lg-4 col-md-4 w-100 button-left">
+                        <a href="#" class="btn-Zuweiser">Zuweiser</a>
+                    </div>
+                    <div class="col-lg-8 col-md-8 w-100 menu-top-right">
+                        <div class="row">
+                            <div class="m-auto">+49 2306 7655-0</div>
+                            <div class="m-auto"> Datenschutz</div>
+                            <div class="m-auto"> Suchfunktion</div>
+                            <div class="m-auto">Schriftgröße AA</div>
+                            <div class="ml-auto">ENG</div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
