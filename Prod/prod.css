@@ -11423,10 +11423,13 @@ main {
       font-family: "SourceSansPro-Regular";
       font-size: 12px;
       text-align: start;
+      line-height: 19px;
       list-style: none; }
       @media (min-width: 990px) {
         #footer .container-fluid .container .block_footer ul li, #footer .container-sm .container .block_footer ul li, #footer .container-md .container .block_footer ul li, #footer .container-lg .container .block_footer ul li, #footer .container-xl .container .block_footer ul li {
           font-size: 16px; } }
+      #footer .container-fluid .container .block_footer ul li .marg, #footer .container-sm .container .block_footer ul li .marg, #footer .container-md .container .block_footer ul li .marg, #footer .container-lg .container .block_footer ul li .marg, #footer .container-xl .container .block_footer ul li .marg {
+        margin-bottom: 20px; }
 
 /* ------------------------------------
 7. Conditionals

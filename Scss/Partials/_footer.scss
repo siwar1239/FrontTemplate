@@ -11,13 +11,15 @@
             font-family: $font-family-base;
             font-size: $font-size-default-mobile;
             text-align: start;
+            line-height: 19px;
             list-style: none;
             @media (min-width: $screen-md-min) {
               font-size: $font-size-medium-bis;
             }
+            .marg{
+              margin-bottom:20px;
+            }
           }
-
-
         }
 
       }
