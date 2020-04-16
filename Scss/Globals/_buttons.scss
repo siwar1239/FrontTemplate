@@ -31,6 +31,10 @@
    margin-top:0px;
    margin-bottom:4px;
    padding: 1.5px 20px;
+  font-size: $font-size-default-mobile;
+  @media (min-width: $screen-md-min) {
+    font-size: $font-size-medium-b;
+  }
  }
 .right-button{
   text-align:right;
