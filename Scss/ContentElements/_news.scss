@@ -1,4 +1,4 @@
-.ce-news {
+.news {
     position: relative;
     padding-top: 16px;
     padding-bottom: 20px;
@@ -8,17 +8,26 @@
         padding-bottom: 21px;
         margin-bottom: 11px;
     }
-    &.detail{
+    .title_news{
+        font-size:$font-size-large-b;
+        color:red;
+        margin-bottom: 12px;
+    }
+
         h2{
-            &.title{
+            &.title_news{
+                font-size:$font-size-large-b;
+                color:red;
                 margin-bottom: 12px;
             }
 
         }
         h3 {
+            font-size:$font-size-large-b;
+            color:red;
             margin-bottom: 18px;
         }
-    }
+
 
     h4 {
         margin-bottom: 18px;
