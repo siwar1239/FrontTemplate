@@ -123,12 +123,8 @@
     }
     .menu{
         .menu-nav {
-            h2{
-                float: right;
-                background:yellow;
-                font-size: $font-size-default-mobile;
-                font-family:$font-family-base;
-                color:$color-blue-text;
+            main-navigation{
+                background:red;
             }
 
 

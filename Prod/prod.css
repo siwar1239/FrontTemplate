@@ -4,7 +4,6 @@
 
 ------------------------------------ */
 /* Slider */
-@import url(node_modules/@fancyapps/fancybox/dist/jquery.fancybox.css);
 .slick-slider {
   position: relative;
   display: block;
@@ -11484,12 +11483,8 @@ Example for 5 columns (12 ÷ 5 = 2.4) and breakpoint 'sm':
       overflow: hidden;
       background-repeat: no-repeat;
       background-size: contain; }
-  #header .menu .menu-nav h2 {
-    float: right;
-    background: yellow;
-    font-size: 12px;
-    font-family: "SourceSansPro-Regular";
-    color: #4a9eb2; }
+  #header .menu .menu-nav main-navigation {
+    background: red; }
 
 html, body {
   height: 100%; }
