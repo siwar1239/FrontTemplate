@@ -11382,6 +11382,78 @@ Example for 5 columns (12 ÷ 5 = 2.4) and breakpoint 'sm':
     background-color: #878787;
     display: none;
     /***display head-top part***/ }
+    #header .head-top .container .row .header-top-cols {
+      /**************search part*********************/
+      /**********************************************/ }
+      #header .head-top .container .row .header-top-cols .search-form {
+        position: relative;
+        width: 13%; }
+        #header .head-top .container .row .header-top-cols .search-form form {
+          display: flex;
+          align-items: center;
+          margin-bottom: 0; }
+        #header .head-top .container .row .header-top-cols .search-form span {
+          position: absolute;
+          top: 6px;
+          left: -17px; }
+          #header .head-top .container .row .header-top-cols .search-form span:after {
+            content: "";
+            background: url("../Img/icon-search.png") 50% 50% no-repeat;
+            position: absolute;
+            background-size: cover;
+            width: 14px;
+            height: 14px; }
+          @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+            #header .head-top .container .row .header-top-cols .search-form span {
+              margin-top: 0; } }
+        #header .head-top .container .row .header-top-cols .search-form input {
+          outline: none;
+          border: 1px solid transparent;
+          background: transparent;
+          font-family: "SourceSansPro-Regular"; }
+          #header .head-top .container .row .header-top-cols .search-form input::-webkit-input-placeholder {
+            opacity: 1;
+            color: #FFFFFF;
+            font-size: 16px;
+            font-family: "SourceSansPro-Regular"; }
+          #header .head-top .container .row .header-top-cols .search-form input::-moz-placeholder {
+            opacity: 1;
+            color: #FFFFFF;
+            font-size: 16px;
+            font-family: "SourceSansPro-Regular"; }
+          #header .head-top .container .row .header-top-cols .search-form input:-ms-input-placeholder {
+            opacity: 1;
+            color: #FFFFFF;
+            font-size: 16px;
+            font-family: "SourceSansPro-Regular"; }
+          #header .head-top .container .row .header-top-cols .search-form input::-ms-input-placeholder {
+            opacity: 1;
+            color: #FFFFFF;
+            font-size: 16px;
+            font-family: "SourceSansPro-Regular"; }
+          #header .head-top .container .row .header-top-cols .search-form input::placeholder {
+            opacity: 1;
+            color: #FFFFFF;
+            font-size: 16px;
+            font-family: "SourceSansPro-Regular"; }
+          #header .head-top .container .row .header-top-cols .search-form input.opened {
+            border-color: #878787;
+            width: 70%; }
+          #header .head-top .container .row .header-top-cols .search-form input:focus::-webkit-input-placeholder {
+            opacity: 0; }
+          #header .head-top .container .row .header-top-cols .search-form input:focus::-moz-placeholder {
+            opacity: 0; }
+          #header .head-top .container .row .header-top-cols .search-form input:focus:-ms-input-placeholder {
+            opacity: 0; }
+          #header .head-top .container .row .header-top-cols .search-form input:focus::-ms-input-placeholder {
+            opacity: 0; }
+          #header .head-top .container .row .header-top-cols .search-form input:focus::placeholder {
+            opacity: 0; }
+          @media (min-width: 990px) {
+            #header .head-top .container .row .header-top-cols .search-form input.opened {
+              width: 120px; }
+            #header .head-top .container .row .header-top-cols .search-form input:focus {
+              width: 120px; } }
     #header .head-top .container .row .menu-top-right {
       text-align: right;
       color: #FFFFFF;
@@ -11413,6 +11485,32 @@ html, body {
 
 main {
   background: #edf6f1; }
+  main .lateral-menu {
+    position: fixed;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 99999;
+    /***********button fixed right position********/ }
+    main .lateral-menu .info_anfordern {
+      /* Rotate from top left corner (not default) */
+      transform-origin: 0 0;
+      transform: rotate(-90deg);
+      -webkit-transform: rotate(-90deg);
+      letter-spacing: 0px; }
+      @media (min-width: 990px) {
+        main .lateral-menu .info_anfordern {
+          font-size: 19px; } }
+      main .lateral-menu .info_anfordern:before {
+        content: "";
+        background: url("../Img/icon_right.png") 50% 50% no-repeat;
+        position: absolute;
+        background-size: cover;
+        width: 14px;
+        height: 14px;
+        margin-top: 6px; }
+      main .lateral-menu .info_anfordern span {
+        padding-left: 18px; }
 
 #footer {
   background: red; }

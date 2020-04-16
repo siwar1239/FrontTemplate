@@ -10,7 +10,12 @@
                         <div class="row">
                             <div class="m-auto">+49 2306 7655-0</div>
                             <div class="m-auto"> Datenschutz</div>
-                            <div class="m-auto"> Suchfunktion</div>
+                            <div class="search-form m-auto">
+                                    <form action="#" method="get">
+                                        <span class="icon-search"></span>
+                                        <input type="text" name="q" placeholder="Suchfunktion"/>
+                                    </form>
+                             </div>
                             <div class="m-auto">Schriftgröße AA</div>
                             <div class="ml-auto">ENG</div>
                         </div>

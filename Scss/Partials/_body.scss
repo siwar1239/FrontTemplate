@@ -3,4 +3,38 @@ html, body {
 }
 main{
   background:$background-body;
+  .lateral-menu {
+    position: fixed;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: $z-index-max;
+
+    /***********button fixed right position********/
+    .info_anfordern{
+      /* Rotate from top left corner (not default) */
+      transform-origin: 0 0;
+      transform: rotate(-90deg);
+      -webkit-transform: rotate(-90deg);
+      letter-spacing:0px;
+      @media (min-width: $screen-md-min) {
+        font-size: $font-size-medium-b;
+      }
+      &:before{
+        content: "";
+        background: url("../Img/icon_right.png") 50% 50% no-repeat;
+        position: absolute;
+        background-size: cover;
+        width: 14px;
+        height: 14px;
+        margin-top: 6px;
+      }
+      span{
+        padding-left: 18px;
+      }
+    }
+
+
+
+  }
 }

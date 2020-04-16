@@ -11,6 +11,63 @@
         .container{
             .row{
                 .header-top-cols {
+                    /**************search part*********************/
+                    .search-form {
+                        position: relative;
+                        width: 13%;
+                        form {
+                            display: flex;
+                            align-items: center;
+                            margin-bottom: 0;
+                        }
+                        span {
+                            position: absolute;
+                            top: 6px;
+                            left: -17px;
+                            &:after{
+                                content: "";
+                                background: url("../Img/icon-search.png") 50% 50% no-repeat;
+                                position: absolute;
+                                background-size: cover;
+                                width: 14px;
+                                height: 14px;
+                            }
+                            @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+                                margin-top: 0;
+                            }
+                        }
+                        input {
+                            outline: none;
+                            border: 1px solid transparent;
+                            background: transparent;
+                            font-family: $font-family-base;
+                            &::placeholder {
+                                opacity: 1;
+                                color: $color-white;
+                                font-size:$font-size-medium-bis;
+                                font-family:$font-family-base;
+                            }
+                            &.opened {
+                                border-color: $color-grey;
+                                width: 70%;
+                            }
+                            &:focus {
+                                &::placeholder {
+                                    opacity: 0;
+                                }
+                            }
+                            @media (min-width: $screen-md-min) {
+                                &.opened {
+                                    width: 120px;
+                                }
+                                &:focus {
+                                    width: 120px;
+                                }
+                            }
+                        }
+                    }
+                    /**********************************************/
+
 
                 }
                 .menu-top-right{

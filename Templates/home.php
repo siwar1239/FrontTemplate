@@ -8,8 +8,15 @@
                 max-width: 940px;
             }
         }
-
     </style>
+
+
+    <div class="lateral-menu">
+            <a href="#" class="btn info_anfordern"></i><span>Information anfordern ></span></a>
+    </div>
+
+
+
     <?php include 'Partials/header.php'; ?>
     <?php include 'ContentElements/slider.php'; ?>
     <?php include 'ContentElements/blocks.php'; ?>
