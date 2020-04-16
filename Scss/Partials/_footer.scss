@@ -10,11 +10,12 @@
             color: $color-white;
             font-family: $font-family-base;
             font-size: $font-size-default-mobile;
-            text-align: start;
+            text-align: center;
             line-height: 19px;
             list-style: none;
             @media (min-width: $screen-md-min) {
               font-size: $font-size-medium-bis;
+              text-align: start;
             }
             .marg{
               margin-bottom:20px;

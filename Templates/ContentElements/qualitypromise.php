@@ -1,14 +1,14 @@
-<section id="platzhalter">
+<section id="qualitypromise">
    <div class="container">
        <div class="title2">Unser Qualitätsversprechen</div>
        <div class="row w-100">
            <div class="col-lg-4 col-md-4 col-sm12 col-12 block-quality">
                <div class="title-block">Datenschutz</div>
                <ul>
-                   <li>Sensibler Umgang mit Ihren Daten<br>(ärztliche Schweigepflicht)</li>
+                   <li>Sensibler Umgang mit Ihren Daten<br class="d-none">(ärztliche Schweigepflicht)</li>
                    <li>Aktuelles Datenschutzkonzept</li>
-                   <li>ISO/IEC 27001 durch den Vertrags-<br>
-                       partner des WZAT: SVA, Operational<br>
+                   <li>ISO/IEC 27001 durch den Vertrags-<br class="d-none">
+                       partner des WZAT: SVA, Operational<br class="d-none">
                        Services</li>
                </ul>
            </div>

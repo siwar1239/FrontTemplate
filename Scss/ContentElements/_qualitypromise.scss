@@ -1,4 +1,4 @@
-#platzhalter{
+#qualitypromise{
   .container{
            background:$color-white;
            text-align:center;
@@ -12,6 +12,7 @@
             }
           }
           .row{
+            margin-bottom:50px;
               .block-quality{
                   .title-block{
                     margin-bottom:20px;
@@ -24,6 +25,7 @@
                       color:$color-black;
                       font-family:$font-family-base;
                       font-size: $font-size-default-mobile;
+                      line-height: 22px;
                       text-align: start;
                       list-style: none;
                       &:before {
@@ -35,6 +37,12 @@
                       }
                       @media (min-width: $screen-md-min) {
                       font-size: $font-size-medium;
+                      }
+                      .d-none{
+                        display:none;
+                        @media (min-width: $screen-md-min) {
+                          display:block;
+                        }
                       }
                     }
                   }
