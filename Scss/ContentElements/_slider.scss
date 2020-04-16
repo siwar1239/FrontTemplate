@@ -1,3 +1,18 @@
-#slider{
+#slider {
+  .carousel-control-prev, .carousel-control-next {
+    width: 3%;
+    .carousel-control-prev-icon {
+      background-image: url(../Img/pred.png);
 
+    }
+    .carousel-control-next-icon {
+      background-image: url(../Img/next.png);
+    }
+    .carousel-control-prev-icon, .carousel-control-next-icon {
+      width: 14px;
+      height: 26px;
+    }
+  }
 }
+
+

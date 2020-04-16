@@ -1,14 +1,6 @@
 <?php require_once '../Inc/functions.php'; //function import()?>
 <?php include 'Globals/head.php'; ?>
 <main>
-    <style>
-        @media (min-width: 1200px)
-        {
-            .container, .container-sm, .container-md, .container-lg, .container-xl {
-                max-width: 940px;
-            }
-        }
-    </style>
 
 
     <div class="lateral-menu">
@@ -33,7 +25,6 @@
     <?php include 'ContentElements/qualitypromise.php'; ?>
     <?php include 'ContentElements/team.php'; ?>
     <?php include 'ContentElements/logos.php'; ?>
-
 
 
 </main>

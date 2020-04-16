@@ -58,19 +58,15 @@ Process JS
 gulp.task('processJs', done => {
     return gulp.src([
         './node_modules/jquery/dist/jquery.js',
-        // './node_modules/datatables.net/js/jquery.dataTables.js',
-         './node_modules/slick-carousel/slick/slick.js',
-        // './node_modules/jcf/js/jcf.js',
-        // './node_modules/jcf/js/jcf.select.js',
-        // './node_modules/jcf/js/jcf.checkbox.js',
-        // './node_modules/jcf/js/jcf.radio.js',
-        // './node_modules/body-scroll-lock/lib/bodyScrollLock.js',
-        // './node_modules/cookieconsent/src/cookieconsent.js',
-        // 'Js/cookieconsent.js',
-        //****************declaration js files****************//
+        './node_modules/datatables.net/js/jquery.dataTables.js',
+        './node_modules/slick-carousel/slick/slick.js',
+        './node_modules/jcf/js/jcf.js',
+        './node_modules/jcf/js/jcf.select.js',
+        './node_modules/jcf/js/jcf.checkbox.js',
+        './node_modules/jcf/js/jcf.radio.js',
+        './node_modules/body-scroll-lock/lib/bodyScrollLock.js',
         './node_modules/@fancyapps/fancybox/dist/jquery.fancybox.js',
-        './node_modules/popper.js/dist/popper.js',
-        'node_modules/bootstrap/dist/js/bootstrap.js.map',
+        //'./node_modules/popper.js/dist/popper.js',
         'node_modules/bootstrap/dist/js/bootstrap.js',
         'Js/main.js'
     ])
@@ -134,15 +130,15 @@ gulp.task('default', gulp.series('watch'));
 // ====================================
 // Additional task for copying propblematical assets
 // ====================================
-// gulp.task('copyCssVendors', done => {
-//     gulp.src([
-//         './node_modules/@fancyapps/fancybox/dist/jquery.fancybox.css',
-//         './node_modules/datatables.net-dt/css/jquery.dataTables.css'
-//     ])
-//         .pipe(rename({
-//             prefix: '_',
-//             extname: '.scss'
-//         }))
-//         .pipe(gulp.dest('Vendors'));
-//     done();
-// });
+gulp.task('copyCssVendors', done => {
+    gulp.src([
+        './node_modules/@fancyapps/fancybox/dist/jquery.fancybox.css',
+        './node_modules/datatables.net-dt/css/jquery.dataTables.css'
+    ])
+        .pipe(rename({
+            prefix: '_',
+            extname: '.scss'
+        }))
+        .pipe(gulp.dest('Vendors'));
+    done();
+});

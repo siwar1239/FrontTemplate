@@ -16,5 +16,8 @@
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
         </a>
+        <a href="#" class="btn btn_slider">Kontakt ></a>
     </div>
+
 </section>
+

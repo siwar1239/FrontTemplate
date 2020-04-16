@@ -65,3 +65,13 @@
     color: $color-white;
   }
 }
+/*****Button slider****/
+.btn_slider {
+  position: absolute;
+  z-index: 1;
+  right: 4%;
+  bottom: 0%;
+  @media (min-width: $screen-md-min) {
+    font-size: $font-size-medium-b;
+  }
+}
