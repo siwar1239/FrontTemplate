@@ -11418,6 +11418,15 @@ main {
   background: red; }
   #footer .container-fluid, #footer .container-sm, #footer .container-md, #footer .container-lg, #footer .container-xl {
     background: #878787; }
+    #footer .container-fluid .container .block_footer ul li, #footer .container-sm .container .block_footer ul li, #footer .container-md .container .block_footer ul li, #footer .container-lg .container .block_footer ul li, #footer .container-xl .container .block_footer ul li {
+      color: #FFFFFF;
+      font-family: "SourceSansPro-Regular";
+      font-size: 12px;
+      text-align: start;
+      list-style: none; }
+      @media (min-width: 990px) {
+        #footer .container-fluid .container .block_footer ul li, #footer .container-sm .container .block_footer ul li, #footer .container-md .container .block_footer ul li, #footer .container-lg .container .block_footer ul li, #footer .container-xl .container .block_footer ul li {
+          font-size: 16px; } }
 
 /* ------------------------------------
 7. Conditionals
@@ -11427,6 +11436,10 @@ main {
 ------------------------------------ */
 h1 {
   color: red; }
+
+a {
+  text-decoration: none;
+  outline: none; }
 
 /*Buttons body */
 .btn {
@@ -11457,7 +11470,11 @@ h1 {
 .but-kontakt {
   margin-top: 0px;
   margin-bottom: 4px;
-  padding: 1.5px 20px; }
+  padding: 1.5px 20px;
+  font-size: 12px; }
+  @media (min-width: 990px) {
+    .but-kontakt {
+      font-size: 19px; } }
 
 .right-button {
   text-align: right; }

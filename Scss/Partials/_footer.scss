@@ -2,5 +2,25 @@
   background:red;
   .container-fluid{
     background:$color-grey;
+    .container{
+
+      .block_footer{
+        ul{
+          li {
+            color: $color-white;
+            font-family: $font-family-base;
+            font-size: $font-size-default-mobile;
+            text-align: start;
+            list-style: none;
+            @media (min-width: $screen-md-min) {
+              font-size: $font-size-medium-bis;
+            }
+          }
+
+
+        }
+
+      }
+    }
   }
 }
