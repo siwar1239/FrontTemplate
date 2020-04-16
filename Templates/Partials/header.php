@@ -1,4 +1,7 @@
-<header id="header">
+<?php
+$current_page = isset($current_page) ? $current_page : '';
+
+?><header id="header">
     <div class="container-fluid head-top">
         <div class="container">
             <div class="row">
@@ -35,7 +38,25 @@
                 </a>
             </div>
             <div class="col-lg-9 col-md-9 col-sm-9 menu">
-                <div class="menu-nav"><h2>Menu</h2></div>
+                <div class="menu-nav">
+                    <div class="main-nav">
+                        <nav id="main-navigation">
+                            <ul class="first-level-menu">
+                                <li class=""><a href="#">Unsere Versorgungsprogramme</a></li>
+                                <li class=""><a href="#">Anwenderberichte</a></li>
+                                <li class=""><a href="#">Über das WZAT</a></li>
+                                <li class=""><a href="#">Kontakt</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+
+
+
+
+
+
+
+                </div>
             </div>
         </div>
     </div>

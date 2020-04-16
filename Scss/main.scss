@@ -7,7 +7,6 @@
 /*@import "node_modules/bootstrap/dist/css/bootstrap.css";*/
 @import "node_modules/bootstrap/scss/bootstrap";
 @import "node_modules/bootstrap/scss/bootstrap-grid";
-@import "node_modules/@fancyapps/fancybox/dist/jquery.fancybox.css";
 
 
 @import "Vendors/jquery.fancybox";
@@ -47,6 +46,7 @@
 
 @import "Partials/header";
 @import "Partials/body";
+@import "Partials/fancybox";
 @import "Partials/footer";
 
 
