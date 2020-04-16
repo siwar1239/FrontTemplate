@@ -3,6 +3,7 @@
     background:$color-white;
     .logos {
       padding-top: 28px;
+      margin:auto;
       @media (min-width: $screen-sm-min) {
         padding-top: 33px;
         display: flex;
@@ -31,9 +32,6 @@
 
           margin-bottom: 25px;
           transform: none;
-        }
-        .third-title-bis {
-          text-align: left;
         }
 
         /* In case 3 logos on the last line */
