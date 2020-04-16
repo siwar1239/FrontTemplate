@@ -130,15 +130,15 @@ gulp.task('default', gulp.series('watch'));
 // ====================================
 // Additional task for copying propblematical assets
 // ====================================
-gulp.task('copyCssVendors', done => {
-    gulp.src([
-        './node_modules/@fancyapps/fancybox/dist/jquery.fancybox.css',
-        './node_modules/datatables.net-dt/css/jquery.dataTables.css'
-    ])
-        .pipe(rename({
-            prefix: '_',
-            extname: '.scss'
-        }))
-        .pipe(gulp.dest('Vendors'));
-    done();
-});
+// gulp.task('copyCssVendors', done => {
+//     gulp.src([
+//         './node_modules/@fancyapps/fancybox/dist/jquery.fancybox.css',
+//         './node_modules/datatables.net-dt/css/jquery.dataTables.css'
+//     ])
+//         .pipe(rename({
+//             prefix: '_',
+//             extname: '.scss'
+//         }))
+//         .pipe(gulp.dest('Vendors'));
+//     done();
+// });

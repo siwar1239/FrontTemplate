@@ -17,10 +17,7 @@
                ],
                3 => [
                    "image" => '../../Img/team/team4.png',
-               ],
-               4 => [
-                   "image" => '../../Img/team/team4.png',
-               ],
+               ]
 
            ]
        ]);

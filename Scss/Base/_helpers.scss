@@ -1,0 +1,91 @@
+// Typo3 Headline Orientation helper classes
+.force {
+    &-center {
+        text-align: center;
+    }
+
+    &-left {
+        text-align: left;
+    }
+}
+
+.bg-primary {
+
+    background-color: $color-dark-blue;
+}
+
+.bg-grey {
+
+    background-color: $color-grey;
+    p,a,*{
+        color: $color-white;
+    }
+}
+
+.bg-light-blue {
+
+    background-color: $color-light-blue;
+}
+
+.bold {
+    font-weight: $font-weight-bold;
+}
+/* Gutter width change responsive */
+.container {
+    padding-right: $grid-gutter-width-mobile/2;
+    padding-left: $grid-gutter-width-mobile/2;
+    @media (min-width: $screen-md-min) {
+        padding-right: $grid-gutter-width/2;
+        padding-left: $grid-gutter-width/2;
+    }
+}
+
+.row {
+    margin-right: -$grid-gutter-width-mobile/2;
+    margin-left: -$grid-gutter-width-mobile/2;
+    @media (min-width: $screen-md-min) {
+        margin-right: -$grid-gutter-width/2;
+        margin-left: -$grid-gutter-width/2;
+    }
+}
+
+[class^="col-"]{
+    padding-right: $grid-gutter-width-mobile/2;
+    padding-left: $grid-gutter-width-mobile/2;
+    @media (min-width: $screen-md-min) {
+        padding-right: $grid-gutter-width/2;
+        padding-left: $grid-gutter-width/2;
+    }
+}
+.no-padding-right {
+    padding-right: 0;
+}
+
+.no-padding-left {
+    padding-left: 0;
+}
+.no-padding{
+    padding: 0;
+}
+.replace-header-image{
+    display: none;
+}
+.responsive-embed {
+      display: block;
+      height: 0;
+      overflow: hidden;
+      padding: 0 0 56.25%; // 16by9 = 56.25%, 4by3 = 75%
+      position: relative;
+      iframe,
+      embed,
+      object,
+      video {
+          border: 0;
+          bottom: 0;
+          height: 100%;
+          left: 0;
+          position: absolute;
+          top: 0;
+          width: 100%;
+      }
+  }
