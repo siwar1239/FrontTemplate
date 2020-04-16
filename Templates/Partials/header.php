@@ -8,7 +8,7 @@
                     </div>
                     <div class="col-lg-8 col-md-8 w-100 menu-top-right">
                         <div class="row">
-                            <div class="m-auto">+49 2306 7655-0</div>
+                            <div class="m-auto tel">+49 2306 7655-0</div>
                             <div class="m-auto"> Datenschutz</div>
                             <div class="search-form m-auto">
                                     <form action="#" method="get">

@@ -11394,15 +11394,15 @@ Example for 5 columns (12 ÷ 5 = 2.4) and breakpoint 'sm':
           margin-bottom: 0; }
         #header .head-top .container .row .header-top-cols .search-form span {
           position: absolute;
-          top: 6px;
-          left: -17px; }
+          top: 3px;
+          left: -23px; }
           #header .head-top .container .row .header-top-cols .search-form span:after {
             content: "";
             background: url("../Img/icon-search.png") 50% 50% no-repeat;
             position: absolute;
             background-size: cover;
-            width: 14px;
-            height: 14px; }
+            width: 19px;
+            height: 20px; }
           @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
             #header .head-top .container .row .header-top-cols .search-form span {
               margin-top: 0; } }
@@ -11410,7 +11410,8 @@ Example for 5 columns (12 ÷ 5 = 2.4) and breakpoint 'sm':
           outline: none;
           border: 1px solid transparent;
           background: transparent;
-          font-family: "SourceSansPro-Regular"; }
+          font-family: "SourceSansPro-Regular";
+          color: #FFFFFF; }
           #header .head-top .container .row .header-top-cols .search-form input::-webkit-input-placeholder {
             opacity: 1;
             color: #FFFFFF;
@@ -11460,6 +11461,15 @@ Example for 5 columns (12 ÷ 5 = 2.4) and breakpoint 'sm':
       font-size: 16px;
       font-family: "SourceSansPro-Regular";
       top: 2px; }
+      #header .head-top .container .row .menu-top-right .tel:before {
+        content: "";
+        background: url("../Img/icon_tel.png") 50% 50% no-repeat;
+        position: absolute;
+        background-size: cover;
+        width: 19px;
+        height: 19px;
+        top: 3px;
+        left: 2px; }
     @media (min-width: 990px) {
       #header .head-top {
         display: block; } }
@@ -11636,23 +11646,67 @@ a {
 
 #request-info .container {
   background: #FFFFFF; }
-  #request-info .container .paragraph {
-    text-align: center; }
-    #request-info .container .paragraph .title-body {
-      color: #4a9eb2;
-      font-size: 33px;
-      font-family: "SourceSansPro-Regular"; }
+  #request-info .container .col-md-12 {
+    text-align: center !important; }
+    #request-info .container .col-md-12 .paragraph {
+      text-align: center; }
+      #request-info .container .col-md-12 .paragraph .title-body {
+        color: #4a9eb2;
+        font-size: 33px;
+        font-family: "SourceSansPro-Regular"; }
 
 #aktuelles .container {
   background: #f1f6fa;
   text-align: center; }
-  #aktuelles .container .titleAK {
+  #aktuelles .container .title {
     font-size: 12px;
     font-family: "SourceSansPro-Regular";
     color: #4a9eb2; }
     @media (min-width: 990px) {
-      #aktuelles .container .titleAK {
+      #aktuelles .container .title {
         font-size: 33px; } }
+
+.news {
+  position: relative;
+  padding-top: 16px;
+  padding-bottom: 20px; }
+  @media (min-width: 990px) {
+    .news {
+      padding-top: 4px;
+      padding-bottom: 21px;
+      margin-bottom: 11px;
+      border-right: 2px solid #4a9eb2; }
+      .news:last-child {
+        border-right: none; } }
+  .news .title_news {
+    font-size: 22px;
+    color: #000000;
+    font-family: "SourceSansPro-Regular";
+    text-align: initial;
+    margin-bottom: 20px; }
+  .news .description {
+    margin-top: 18px;
+    padding-right: 6px;
+    margin-bottom: 19px; }
+    @media (min-width: 990px) {
+      .news .description {
+        margin-top: 0;
+        padding-right: 0; } }
+    .news .description p {
+      margin-bottom: 5px;
+      text-align: justify;
+      word-spacing: -2px; }
+      @media (min-width: 990px) {
+        .news .description p {
+          margin-bottom: 8px; } }
+  .news .more-news {
+    text-align: center; }
+    @media (min-width: 990px) {
+      .news .more-news {
+        text-align: left; } }
+    .news .more-news .btn-more {
+      color: #4a9eb2;
+      font-family: "SourceSansPro-Bold"; }
 
 #platzhalter .container {
   background: #FFFFFF;

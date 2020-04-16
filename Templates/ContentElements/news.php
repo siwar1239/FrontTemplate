@@ -14,6 +14,20 @@ $btnName = isset($btnName) ? $btnName : '';
     <div class="title_news">
         <?php echo $title; ?>
     </div>
-
+    <div class="row infos-news">
+        <?php if ($image!='') {?>
+            <div class="col-md-6 left-side">
+                <img src="<?php echo $image; ?>" alt="">
+            </div>
+        <?php } ?>
+            <div class="col-md-6 right-side">
+                <div class="description">
+                    <?php echo $description; ?>
+                </div>
+                <div class="more-news">
+                    <a href="<?php echo $btnLink; ?>" class="btn-more"><?php echo $btnName; ?></a>
+                </div>
+            </div>
+    </div>
 </div>
 

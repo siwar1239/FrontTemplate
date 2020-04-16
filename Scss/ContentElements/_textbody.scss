@@ -1,13 +1,19 @@
 #request-info{
   .container{
     background:$color-white;
-    .paragraph{
-      text-align:center;
+    .col-md-12{
+      text-align:center !important;
+
+      .paragraph{
+        text-align:center;
         .title-body{
           color:$color-blue-text;
           font-size:$font-size-extralarge;
           font-family: $font-family-base;
         }
+      }
     }
+
+
   }
 }
