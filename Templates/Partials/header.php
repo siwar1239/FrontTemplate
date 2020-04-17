@@ -51,7 +51,13 @@
                                     <li class=""><a href="#">Unsere Versorgungsprogramme</a></li>
                                     <li class=""><a href="#">Anwenderberichte</a></li>
                                     <li class=""><a href="#">Über das WZAT</a></li>
-                                    <li class=""><a href="#">Kontakt</a></li>
+                                    <li class="has-dropdown">
+                                        <a href="#">Kontakt <span class="open-mobile-menu"></span> </a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="#">title1</a></li>
+                                            <li><a href="#">title2</a></li>
+                                        </ul>
+                                    </li>
                                 </ul>
                             </nav>
                         </div>

@@ -1,70 +1,67 @@
-<?php require_once '../Inc/functions.php'; //function import()?>
 <section id="aktuelles">
    <div class="container">
        <div class="title">Aktuelles</div>
        <div class="row w-100">
-           <?php
-           import('news', [
-               "class" => '',
-               "date" => '',
-               "title" => 'Unser neues Programm für Schlaganfall',
-               "image" => "../Img/news-1.jpg",
-               "description" => '
-                        <p>
-                            Is ini que conse vendae sunt fugitio illab ipsum conseque lam sapis es none eturitas...
+           <div class="news col-md-6 col-lg-6 col-xs-12 px-2">
+               <div class="title_news pl-4">
+                   Unser neues Programm für Schlaganfall
+               </div>
+               <div class="row infos-news pl-3">
+                       <div class="col-md-6 left-side">
+                           <img src="../Img/news-1.jpg" alt="">
+                       </div>
+                   <div class="col-md-6 right-side">
+                       <div class="description">
+                           <p class="pl-3">
+                               Is ini que conse vendae<br> sunt fugitio illab ipsum<br> conseque lam sapis es<br> none eturitas...
 
-                        </p>
-                         ',
-               "btnName" => 'Mehr erfahren >',
-               "btnLink" => 'javascript:void(0)'
-           ]);
+                           </p>
+                       </div>
+                       <div class="more-news pl-3">
+                           <a href="#" class="btn-more">Mehr erfahren ></a>
+                       </div>
+                   </div>
+               </div>
+           </div>
+           <div class="news col-md-3 col-lg-3 col-xs-12 px-2">
+               <div class="title_news pl-3">
+                   Messe
+               </div>
+               <div class="row infos-news">
 
-           ?>
+                   <div class="right-side">
+                       <div class="description">
+                           <p class="pl-3">
+                               Is ini que conse vendae<br> sunt fugitio illab ipsum<br> conseque lam sapis es<br> none eturitas...
 
+                           </p>
+                       </div>
+                       <div class="more-news pl-3">
+                           <a href="#" class="btn-more">Mehr erfahren ></a>
+                       </div>
+                   </div>
+               </div>
+           </div>
+           <div class="news col-md-3 col-lg-3 col-xs-12 px-2">
+               <div class="title_news pl-3">
+                   Thema 4
+               </div>
+               <div class="row infos-news">
 
+                   <div class="right-side">
+                       <div class="description">
+                           <p class="pl-3">
+                               Is ini que conse vendae<br> sunt fugitio illab ipsum<br> conseque lam sapis es<br> none eturitas...
 
-           <!--  -->
+                           </p>
+                       </div>
+                       <div class="more-news pl-3">
+                           <a href="#" class="btn-more">Mehr erfahren ></a>
+                       </div>
+                   </div>
+               </div>
+           </div>
 
-
-           <?php
-           import('news', [
-               "class" => 'bg-blue',
-               "date" => '',
-               "title" => 'Messe',
-               "description" => '
-            <p>
-                Is ini que conse vendae
-                sunt fugitio illab ipsum
-                conseque lam sapis es
-                none eturitas...
-            </p>
-    ',
-               "btnName" => 'Mehr erfahren >',
-               "btnLink" => 'javascript:void(0)'
-           ]);
-
-           ?>
-
-
-
-           <?php
-           import('news', [
-               "class" => '',
-               "date" => '',
-               "title" => 'Thema 4',
-               "description" => '
-                        <p>
-                        Is ini que conse vendae
-                        sunt fugitio illab ipsum
-                        conseque lam sapis es
-                        none eturitas...
-                        </p>
-    ',
-               "btnName" => 'Mehr erfahren >',
-               "btnLink" => 'javascript:void(0)'
-           ]);
-
-           ?>
 
        </div>
 

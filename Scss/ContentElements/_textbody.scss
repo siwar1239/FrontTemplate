@@ -8,8 +8,19 @@
         text-align:center;
         .title-body{
           color:$color-blue-text;
-          font-size:$font-size-extralarge;
+          font-size:$font-size-extralarge-mobile;
           font-family: $font-family-base;
+          @media (min-width: $screen-md-min) {
+            font-size: $font-size-extralarge;
+          }
+        }
+        p{
+          color:$color-black;
+          font-size:$font-size-medium-mobile;
+          font-family: $font-family-base;
+          @media (min-width: $screen-md-min) {
+            font-size: $font-size-medium;
+          }
         }
       }
     }

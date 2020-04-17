@@ -374,14 +374,16 @@
                                 margin-bottom: 0;
                                 padding-left: 0;
                                 margin-top: -1px;
-                                background-color: pink;
+                                background-color:$color-blue;
+                                display: block;
+                                padding: 0;
+                                border: 0;
                                 &.opened{
                                     max-height: 999px;
                                 }
                                 @media (min-width: $screen-md-min) {
                                     position: absolute;
-                                    width: 270px;
-                                    right: auto;
+                                    right: 0;
                                     top: 39px;
                                     margin-left: -15px;
                                     transform: none;
@@ -390,7 +392,7 @@
                                     max-height: 0;
                                     height: auto;
                                     padding-left: 0;
-
+                                    left: inherit !important;
                                     margin-top: 0;
                                 }
 

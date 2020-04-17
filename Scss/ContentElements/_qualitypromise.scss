@@ -4,7 +4,7 @@
            text-align:center;
           .title2{
             margin:40px 0px 40px 0px;
-            font-size: $font-size-default-mobile;
+            font-size:$font-size-extralarge-mobile;
             font-family:$font-family-base;
             color:$color-blue-text;
             @media (min-width: $screen-md-min) {
@@ -17,8 +17,11 @@
                   .title-block{
                     margin-bottom:20px;
                     color:$color-blue-text;
-                    font-size:$font-size-larger;
+                    font-size:$font-size-larger-mobile;
                     font-family:$font-family-base;
+                    @media (min-width: $screen-md-min) {
+                      font-size: $font-size-larger;
+                    }
                   }
                   ul{
                     li{
@@ -28,12 +31,16 @@
                       line-height: 22px;
                       text-align: start;
                       list-style: none;
+                      padding-left: 17px;
+                      position: relative;
                       &:before {
                         content: "\25a0";
                         font-size:$font-size-extra-small2;
                         vertical-align:middle;
                         color:$color-blue-text;
-                        padding-right: 2px;
+                        padding-right: 0px;
+                        position: absolute;
+                        left: 0;
                       }
                       @media (min-width: $screen-md-min) {
                       font-size: $font-size-medium;

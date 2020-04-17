@@ -3,7 +3,7 @@
       background:$color-blue-light;
       text-align:center;
       .title{
-        font-size: $font-size-default-mobile;
+        font-size: $font-size-extralarge-mobile;
         font-family:$font-family-base;
         color:$color-blue-text;
 
@@ -11,5 +11,81 @@
           font-size: $font-size-extralarge;
         }
       }
+
+      .news {
+        position: relative;
+        padding-top: 16px;
+        padding-bottom: 20px;
+        border-bottom:2px solid $color-blue-text;
+        &:last-child {
+          border-bottom: none;
+        }
+        @media (min-width: $screen-md-min) {
+          padding-top: 4px;
+          padding-bottom: 21px;
+          margin-bottom: 11px;
+          border-right: 2px solid $color-blue-text;
+          border-bottom: none;
+          &:last-child {
+            border-right: none;
+          }
+
+        }
+        .title_news {
+          font-size:$font-size-x-larger-mobile;
+          color: $color-black;
+          font-family:$font-family-base;
+          text-align: initial;
+          margin-bottom: 20px;
+          @media (min-width: $screen-md-min) {
+            font-size: $font-size-large-b;
+          }
+
+        }
+        img{
+          display:none;
+          @media (min-width: $screen-md-min) {
+            display:block;
+          }
+        }
+
+
+        .description {
+          margin-top: 18px;
+          padding-right: 6px;
+          margin-bottom: 19px;
+          @media (min-width: $screen-md-min) {
+            margin-top: 0;
+            padding-right: 0;
+          }
+          p {
+            margin-bottom: 5px;
+            text-align: justify;
+            word-spacing: -2px;
+            font-family:$font-family-base;
+            font-size:$font-size-medium-mobile;
+            @media (min-width: $screen-md-min) {
+              margin-bottom: 8px;
+              font-size:$font-size-medium;
+
+            }
+          }
+        }
+        .more-news {
+          text-align: center;
+          @media (min-width: $screen-md-min) {
+            text-align: left;
+          }
+          .btn-more {
+            color:$color-blue-text;
+            font-family:$font-family-bold;
+            @media (min-width: $screen-md-min) {
+            }
+          }
+        }
+      }
+
+
+
     }
   }
