@@ -88,7 +88,7 @@
                             width: 19px;
                             height: 19px;
                             top: 3px;
-                            left: 2px;
+                            left: -4px;
 
                         }
                     }
@@ -122,7 +122,7 @@
         }
     }
 
-
+    /**********Nav mobile icon*************/
     .menu-right{
         .mobile-nav-opener {
             position: absolute;
@@ -204,18 +204,15 @@
         }
 
     }
-
-/**************************/
-
+    /**********Menu nav*************/
     .main-menu {
         .main-menu-navs {
             @media (max-width: $screen-md-min) {
-               z-index:$z-index-2;
+                z-index:$z-index-2;
             }
 
             @media (min-width: $screen-md-min) {
                 position: relative;
-                background-color: color-white;//desktop
                 transition: none;
                 transform: none;
                 width: 100%;
@@ -251,7 +248,7 @@
                 }
                 nav {
 
-                    .first-level-menu {
+                    .ul-menu {
                         padding-left: 0;
                         margin-bottom: 0;
                         padding-top:60px;
@@ -271,10 +268,8 @@
                                 @media (min-width: $screen-md-min) {
                                     margin-bottom: 0;
                                 }
-                                a{
-                                    border-bottom: none;
-                                }
                             }
+                            //active li
                             &.active{
                                 background-color: $color-white;
                                 a{
@@ -308,6 +303,7 @@
                                 &:last-child {
                                     padding-right: 0;
                                 }
+                                //hover a
                                 &:hover {
                                     .dropdown-menu {
                                         max-height: 999px;
@@ -315,6 +311,8 @@
                                     }
                                     a {
                                         color: $color-blue;
+                                        text-decoration: none;
+                                        font-weight: $font-weight-semi-bold;
                                     }
                                 }
 
@@ -327,18 +325,17 @@
                             a {
                                 color: $color-white;
                                 font-size: $font-size-large-mobile;
-                                line-height: 8px;
                                 padding: 11px 0;
                                 display: inline-block;
                                 margin: 0 30px;
                                 position: relative;
+                                //menu desktop
                                 @media (min-width: $screen-md-min) {
-                                    border-bottom: none;
                                     padding: 0;
                                     margin: 0;
                                     color: $color-black;
+                                    font-family:$font-family-base;
                                     font-size: $font-size-medium-bis;
-                                    line-height: 3px;
                                 }
                             }
                             .open-mobile-menu{
@@ -525,10 +522,10 @@
                                     }
                                 }
 
-                            }
+                            }//end dropdown-menu
 
                         }
-                    }
+                    }//end ul
                 }
 
             }
