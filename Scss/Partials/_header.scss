@@ -123,7 +123,7 @@
     }
 
 
-    .main-menu-items{
+    .menu-right{
         .mobile-nav-opener {
             position: absolute;
             top: 8px;
@@ -135,7 +135,7 @@
             #nav-icon {
                 width: 28px;
                 height: 45px;
-                position: relative;
+                position: absolute;
                 -webkit-transform: rotate(0deg);
                 -moz-transform: rotate(0deg);
                 -o-transform: rotate(0deg);
@@ -209,9 +209,13 @@
 
     .main-menu {
         .main-menu-navs {
+            @media (max-width: $screen-md-min) {
+               z-index:$z-index-2;
+            }
+
             @media (min-width: $screen-md-min) {
                 position: relative;
-                background-color: $color-white;
+                background-color: color-white;//desktop
                 transition: none;
                 transform: none;
                 width: 100%;
@@ -223,8 +227,9 @@
             }
             .main-nav {
                 position: absolute;
-                background-color: $color-blue;
-                width: 80%;
+                z-index: $z-index-2;
+                background-color: $color-green;//mobile
+                /*width: 80%;*/
                 right: -80%;
                 top: -12px;
                 height: 100vh;
@@ -253,7 +258,7 @@
                         @media (min-width: $screen-md-min) {
                             padding-left: 0;
                             margin-bottom: 0;
-                            padding-top: 0;
+                            padding-top: 27px;
                             padding-right: 0;
                         }
                         > li {
@@ -275,13 +280,14 @@
                                 a{
                                     color: $color-blue;
                                     @media (min-width: $screen-md-min) {
-                                        color: $color-grey;
+                                        color: yellow;
                                     }
                                 }
                                 .open-mobile-menu {
                                     background: url(../Img/Icons/icon-arrow-downb.svg) 50% 50% no-repeat;
                                 }
                             }
+                            /**********line bottom of <li>
                             &:after{
                                 content: "";
                                 height: 1px;
@@ -289,8 +295,9 @@
                                 position: absolute;
                                 bottom: 0;
                                 left: 30px;
-                                background-color: $color-white;
+                                background-color: yellow;
                             }
+                            *******************************/
                             @media (min-width: $screen-md-min) {
                                 display: inline-block;
                                 padding-left: 8px;
@@ -307,7 +314,7 @@
                                         transition: max-height 0.5s ease-in-out;
                                     }
                                     a {
-                                        color: $color-grey;
+                                        color: $color-blue;
                                     }
                                 }
 
@@ -318,9 +325,6 @@
                                 margin-left: 12px;
                             }
                             a {
-
-                                font-weight: 500;
-                                text-transform: uppercase;
                                 color: $color-white;
                                 font-size: $font-size-large-mobile;
                                 line-height: 8px;
@@ -332,8 +336,8 @@
                                     border-bottom: none;
                                     padding: 0;
                                     margin: 0;
-                                    color: $color-blue;
-                                    font-size: 18px;
+                                    color: $color-black;
+                                    font-size: $font-size-medium-bis;
                                     line-height: 3px;
                                 }
                             }
@@ -365,7 +369,7 @@
                                 margin-bottom: 0;
                                 padding-left: 0;
                                 margin-top: -1px;
-                                background-color: $color-blue;
+                                background-color: pink;
                                 &.opened{
                                     max-height: 999px;
                                 }

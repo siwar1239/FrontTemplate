@@ -11484,23 +11484,23 @@ Example for 5 columns (12 ÷ 5 = 2.4) and breakpoint 'sm':
       overflow: hidden;
       background-repeat: no-repeat;
       background-size: contain; }
-  #header .main-menu-items .mobile-nav-opener {
+  #header .menu-right .mobile-nav-opener {
     position: absolute;
     top: 8px;
     right: 31px;
     outline: none; }
     @media (min-width: 990px) {
-      #header .main-menu-items .mobile-nav-opener {
+      #header .menu-right .mobile-nav-opener {
         display: none; } }
-    #header .main-menu-items .mobile-nav-opener #nav-icon {
+    #header .menu-right .mobile-nav-opener #nav-icon {
       width: 28px;
       height: 45px;
-      position: relative;
+      position: absolute;
       transform: rotate(0deg);
       transition: .5s ease-in-out;
       cursor: pointer;
       z-index: 99999; }
-      #header .main-menu-items .mobile-nav-opener #nav-icon span {
+      #header .menu-right .mobile-nav-opener #nav-icon span {
         display: block;
         position: absolute;
         height: 3px;
@@ -11511,30 +11511,33 @@ Example for 5 columns (12 ÷ 5 = 2.4) and breakpoint 'sm':
         left: 0;
         transform: rotate(0deg);
         transition: .25s ease-in-out; }
-        #header .main-menu-items .mobile-nav-opener #nav-icon span:nth-child(1) {
+        #header .menu-right .mobile-nav-opener #nav-icon span:nth-child(1) {
           top: 0px; }
-        #header .main-menu-items .mobile-nav-opener #nav-icon span:nth-child(2), #header .main-menu-items .mobile-nav-opener #nav-icon span:nth-child(3) {
+        #header .menu-right .mobile-nav-opener #nav-icon span:nth-child(2), #header .menu-right .mobile-nav-opener #nav-icon span:nth-child(3) {
           top: 8px; }
-        #header .main-menu-items .mobile-nav-opener #nav-icon span:nth-child(4) {
+        #header .menu-right .mobile-nav-opener #nav-icon span:nth-child(4) {
           top: 16px; }
-      #header .main-menu-items .mobile-nav-opener #nav-icon.opened span {
+      #header .menu-right .mobile-nav-opener #nav-icon.opened span {
         background: #FFFFFF; }
-        #header .main-menu-items .mobile-nav-opener #nav-icon.opened span:nth-child(1) {
+        #header .menu-right .mobile-nav-opener #nav-icon.opened span:nth-child(1) {
           top: 6px;
           width: 0%;
           left: 50%; }
-        #header .main-menu-items .mobile-nav-opener #nav-icon.opened span:nth-child(2) {
+        #header .menu-right .mobile-nav-opener #nav-icon.opened span:nth-child(2) {
           transform: rotate(45deg); }
-        #header .main-menu-items .mobile-nav-opener #nav-icon.opened span:nth-child(3) {
+        #header .menu-right .mobile-nav-opener #nav-icon.opened span:nth-child(3) {
           transform: rotate(-45deg); }
-        #header .main-menu-items .mobile-nav-opener #nav-icon.opened span:nth-child(4) {
+        #header .menu-right .mobile-nav-opener #nav-icon.opened span:nth-child(4) {
           top: 6px;
           width: 0%;
           left: 50%; }
+  @media (max-width: 990px) {
+    #header .main-menu .main-menu-navs {
+      z-index: 2; } }
   @media (min-width: 990px) {
     #header .main-menu .main-menu-navs {
       position: relative;
-      background-color: #FFFFFF;
+      background-color: color-white;
       transition: none;
       transform: none;
       width: 100%;
@@ -11545,8 +11548,9 @@ Example for 5 columns (12 ÷ 5 = 2.4) and breakpoint 'sm':
       padding: 0; } }
   #header .main-menu .main-menu-navs .main-nav {
     position: absolute;
-    background-color: #4b82bd;
-    width: 80%;
+    z-index: 2;
+    background-color: #a1c617;
+    /*width: 80%;*/
     right: -80%;
     top: -12px;
     height: 100vh;
@@ -11573,13 +11577,24 @@ Example for 5 columns (12 ÷ 5 = 2.4) and breakpoint 'sm':
         #header .main-menu .main-menu-navs .main-nav nav .first-level-menu {
           padding-left: 0;
           margin-bottom: 0;
-          padding-top: 0;
+          padding-top: 27px;
           padding-right: 0; } }
       #header .main-menu .main-menu-navs .main-nav nav .first-level-menu > li {
         position: relative;
         display: block;
         padding: 0px;
-        margin-bottom: 0; }
+        margin-bottom: 0;
+        /**********line bottom of <li>
+                            &:after{
+                                content: "";
+                                height: 1px;
+                                width: calc(100% - 60px);
+                                position: absolute;
+                                bottom: 0;
+                                left: 30px;
+                                background-color: yellow;
+                            }
+                            *******************************/ }
         #header .main-menu .main-menu-navs .main-nav nav .first-level-menu > li:last-child {
           margin-bottom: 100px; }
           @media (min-width: 990px) {
@@ -11593,17 +11608,9 @@ Example for 5 columns (12 ÷ 5 = 2.4) and breakpoint 'sm':
             color: #4b82bd; }
             @media (min-width: 990px) {
               #header .main-menu .main-menu-navs .main-nav nav .first-level-menu > li.active a {
-                color: #878787; } }
+                color: yellow; } }
           #header .main-menu .main-menu-navs .main-nav nav .first-level-menu > li.active .open-mobile-menu {
             background: url(../Img/Icons/icon-arrow-downb.svg) 50% 50% no-repeat; }
-        #header .main-menu .main-menu-navs .main-nav nav .first-level-menu > li:after {
-          content: "";
-          height: 1px;
-          width: calc(100% - 60px);
-          position: absolute;
-          bottom: 0;
-          left: 30px;
-          background-color: #FFFFFF; }
         @media (min-width: 990px) {
           #header .main-menu .main-menu-navs .main-nav nav .first-level-menu > li {
             display: inline-block;
@@ -11618,15 +11625,13 @@ Example for 5 columns (12 ÷ 5 = 2.4) and breakpoint 'sm':
               max-height: 999px;
               transition: max-height 0.5s ease-in-out; }
             #header .main-menu .main-menu-navs .main-nav nav .first-level-menu > li:hover a {
-              color: #878787; } }
+              color: #4b82bd; } }
         @media (min-width: 1300px) {
           #header .main-menu .main-menu-navs .main-nav nav .first-level-menu > li {
             padding-left: 10px;
             padding-right: 10px;
             margin-left: 12px; } }
         #header .main-menu .main-menu-navs .main-nav nav .first-level-menu > li a {
-          font-weight: 500;
-          text-transform: uppercase;
           color: #FFFFFF;
           font-size: 14px;
           line-height: 8px;
@@ -11639,8 +11644,8 @@ Example for 5 columns (12 ÷ 5 = 2.4) and breakpoint 'sm':
               border-bottom: none;
               padding: 0;
               margin: 0;
-              color: #4b82bd;
-              font-size: 18px;
+              color: #000000;
+              font-size: 16px;
               line-height: 3px; } }
         #header .main-menu .main-menu-navs .main-nav nav .first-level-menu > li .open-mobile-menu {
           position: absolute;
@@ -11667,7 +11672,7 @@ Example for 5 columns (12 ÷ 5 = 2.4) and breakpoint 'sm':
           margin-bottom: 0;
           padding-left: 0;
           margin-top: -1px;
-          background-color: #4b82bd; }
+          background-color: pink; }
           #header .main-menu .main-menu-navs .main-nav nav .first-level-menu > li .dropdown-menu.opened {
             max-height: 999px; }
           @media (min-width: 990px) {
@@ -11768,7 +11773,10 @@ Example for 5 columns (12 ÷ 5 = 2.4) and breakpoint 'sm':
                 margin-left: -10px; }
 
 html, body {
-  height: 100%; }
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden; }
 
 main {
   background: #edf6f1; }

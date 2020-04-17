@@ -34,7 +34,7 @@
                         <img src="../../Img/logo_header.jpg" class="py-3" >
                 </a>
             </div>
-            <div class="col-lg-9 col-md-9 col-sm-9 main-menu-items">
+            <div class="col-sm-9 col-md-9  col-lg-9 menu-right">
                 <div class="mobile-nav-opener">
                     <div id="nav-icon">
                         <span></span>
@@ -44,26 +44,30 @@
                     </div>
                 </div>
                 <div class="main-menu">
-                    <div class="main-menu-navs semi-white-bg">
+                    <div class="main-menu-navs">
                         <div class="main-nav">
                             <nav id="main-navigation">
-                             <ul >
-                                <li class=""><a href="#">Unsere Versorgungsprogramme</a></li>
-                                <li class=""><a href="#">Anwenderberichte</a></li>
-                                <li class=""><a href="#">Über das WZAT</a></li>
-                                <li class=""><a href="#">Kontakt</a></li>
-                            </ul>
+                                <ul class="first-level-menu">
+                                    <li class=""><a href="#">Unsere Versorgungsprogramme</a></li>
+                                    <li class="has-dropdown"><a
+                                                href="#">ssssss <span class="open-mobile-menu"></span></a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="#" title="title1" >title1</a></li>
+                                            <li><a href="#" title="title2" >title2</a></li>
+
+                                        </ul>
+                                    </li>
+                                    <li class=""><a href="#">Anwenderberichte</a></li>
+                                    <li class=""><a href="#">Über das WZAT</a></li>
+                                    <li class=""><a href="#">Kontakt</a></li>
+                                </ul>
                             </nav>
                         </div>
 
 
-
-
-
-
                     </div>
+                </div>
             </div>
-        </div>
     </div>
     </div>
 </header>

@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f87c767-7d8b-480c-bd9d-1bca28336790" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Prod/prod.css" beforeDir="false" afterPath="$PROJECT_DIR$/Prod/prod.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Prod/prod.js" beforeDir="false" afterPath="$PROJECT_DIR$/Prod/prod.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scss/Partials/_body.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Scss/Partials/_body.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Scss/Partials/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Scss/Partials/_header.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Templates/Partials/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/Templates/Partials/header.php" afterDir="false" />
     </list>
@@ -29,13 +30,13 @@
         <counts>
           <entry key="css" value="10" />
           <entry key="gitignore" value="1" />
-          <entry key="js" value="16" />
+          <entry key="js" value="17" />
           <entry key="json" value="4" />
           <entry key="map" value="1" />
           <entry key="md" value="2" />
           <entry key="php" value="85" />
           <entry key="png" value="1" />
-          <entry key="scss" value="124" />
+          <entry key="scss" value="128" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
@@ -44,11 +45,11 @@
           <entry key="CSS" value="10" />
           <entry key="Image" value="1" />
           <entry key="JSON" value="4" />
-          <entry key="JavaScript" value="16" />
+          <entry key="JavaScript" value="17" />
           <entry key="Markdown" value="2" />
           <entry key="PHP" value="85" />
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="SCSS" value="124" />
+          <entry key="SCSS" value="128" />
           <entry key="SourceMap" value="1" />
         </counts>
       </usages-collector>
@@ -56,19 +57,19 @@
         <counts>
           <entry key="css" value="6" />
           <entry key="gitignore" value="14" />
-          <entry key="js" value="159" />
-          <entry key="php" value="2642" />
-          <entry key="scss" value="3049" />
+          <entry key="js" value="422" />
+          <entry key="php" value="2660" />
+          <entry key="scss" value="3264" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="6" />
           <entry key="HTML" value="1" />
-          <entry key="JavaScript" value="159" />
-          <entry key="PHP" value="2641" />
+          <entry key="JavaScript" value="422" />
+          <entry key="PHP" value="2659" />
           <entry key="PLAIN_TEXT" value="14" />
-          <entry key="SCSS" value="3049" />
+          <entry key="SCSS" value="3264" />
         </counts>
       </usages-collector>
     </session>
@@ -84,29 +85,64 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Templates/Partials/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="48" column="52" selection-start-line="48" selection-start-column="52" selection-end-line="48" selection-end-column="52" />
+            <state relative-caret-position="251">
+              <caret line="41" column="37" lean-forward="true" selection-start-line="41" selection-start-column="37" selection-end-line="41" selection-end-column="37" />
               <folding>
                 <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#header#0;n#!!top" />
-                <element signature="n#div#0;n#div#1;n#div#0;n#div#1;n#header#0;n#!!top" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Prod/prod.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="301">
+              <caret line="35046" column="35" lean-forward="true" selection-start-line="35046" selection-start-column="35" selection-end-line="35046" selection-end-column="35" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#294#1092#0" />
+                <element signature="e#1175#1256#0" />
+                <element signature="e#2037#2385#0" />
+                <element signature="e#2429#2477#0" />
+                <element signature="e#2652#3581#0" />
+                <element signature="e#3607#3836#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Scss/Partials/_header.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="489" column="49" lean-forward="true" selection-start-line="489" selection-start-column="49" selection-end-line="489" selection-end-column="49" />
+            <state relative-caret-position="237">
+              <caret line="125" column="13" lean-forward="true" selection-start-line="125" selection-start-column="13" selection-end-line="125" selection-end-column="13" />
               <folding>
                 <element signature="e#156#3804#0" />
                 <element signature="e#290#2887#0" />
                 <element signature="e#3842#4174#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Scss/Base/_z-indexes.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" selection-start-line="12" selection-end-line="12" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Scss/Partials/_body.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -129,22 +165,28 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Scss/Base/_colors.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" column="2" lean-forward="true" selection-start-line="23" selection-end-line="23" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Scss/Base/_variables.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="479">
+              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>max-width: 1140px;</find>
-      <find>max</find>
-      <find>bootstrap.js.map</find>
-      <find>favicon</find>
-      <find>$_SERVER</find>
-      <find>.ico</find>
-      <find>body.compensate-for-scrollba</find>
-      <find>$grid-gutter-width</find>
-      <find>holde</find>
-      <find>.main-menu-navs</find>
-      <find>first-level-menu</find>
-      <find>hover</find>
       <find>$font-size-medium-bis</find>
       <find>third-title-bis</find>
       <find>col-md-offset-2</find>
@@ -160,9 +202,21 @@
       <find>responsive-embed</find>
       <find>fancyb</find>
       <find>$</find>
-      <find>main-menu-navs</find>
       <find>padding: 75px max(44px, env(safe-area-inset-right))</find>
       <find>$z-index-max</find>
+      <find>$color-dark-blue</find>
+      <find>yellow</find>
+      <find>menu</find>
+      <find>})(jQuery);</find>
+      <find>green</find>
+      <find>icon</find>
+      <find>#nav-icon</find>
+      <find>z-index</find>
+      <find>semi-white-bg</find>
+      <find>dropdown</find>
+      <find>main-menu-items</find>
+      <find>main-menu-navs</find>
+      <find>navs</find>
     </findStrings>
     <dirStrings>
       <dir>C:\xampp\htdocs\FrontTemplate\node_modules</dir>
@@ -182,7 +236,6 @@
         <option value="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap-grid.css" />
         <option value="$PROJECT_DIR$/Templates/ContentElements/text-request-info.php" />
         <option value="$PROJECT_DIR$/Scss/ContentElements/_text-request-info.scss" />
-        <option value="$PROJECT_DIR$/Prod/prod.js" />
         <option value="$PROJECT_DIR$/Inc/functions.php" />
         <option value="$PROJECT_DIR$/Scss/Base/_font-faces.scss" />
         <option value="$PROJECT_DIR$/Templates/ContentElements/button.php" />
@@ -204,7 +257,6 @@
         <option value="$PROJECT_DIR$/Templates/ContentElements/logos.php" />
         <option value="$PROJECT_DIR$/Templates/ContentElements/qualitypromise.php" />
         <option value="$PROJECT_DIR$/Scss/ContentElements/_qualitypromise.scss" />
-        <option value="$PROJECT_DIR$/Scss/Partials/_body.scss" />
         <option value="$PROJECT_DIR$/Templates/ContentElements/aktuelles.php" />
         <option value="$PROJECT_DIR$/Scss/Base/_variables.scss" />
         <option value="$PROJECT_DIR$/Scss/ContentElements/_aktuelles.scss" />
@@ -225,8 +277,10 @@
         <option value="$PROJECT_DIR$/Templates/home.php" />
         <option value="$PROJECT_DIR$/Scss/Partials/_mainmenu.scss" />
         <option value="$PROJECT_DIR$/Scss/main.scss" />
-        <option value="$PROJECT_DIR$/Templates/Partials/header.php" />
+        <option value="$PROJECT_DIR$/Scss/Partials/_body.scss" />
+        <option value="$PROJECT_DIR$/Prod/prod.js" />
         <option value="$PROJECT_DIR$/Scss/Partials/_header.scss" />
+        <option value="$PROJECT_DIR$/Templates/Partials/header.php" />
       </list>
     </option>
   </component>
@@ -279,6 +333,12 @@
               <item name="FrontTemplate" type="b2602c69:ProjectViewProjectNode" />
               <item name="FrontTemplate" type="462c0819:PsiDirectoryNode" />
               <item name="Scss" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FrontTemplate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FrontTemplate" type="462c0819:PsiDirectoryNode" />
+              <item name="Scss" type="462c0819:PsiDirectoryNode" />
+              <item name="Base" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="FrontTemplate" type="b2602c69:ProjectViewProjectNode" />
@@ -337,23 +397,23 @@
       <workItem from="1586788833911" duration="330000" />
       <workItem from="1586789176734" duration="1993000" />
       <workItem from="1586846601504" duration="62276000" />
-      <workItem from="1587016518568" duration="36305000" />
+      <workItem from="1587016518568" duration="42354000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="100904000" />
+    <option name="totallyTimeSpent" value="106953000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" sideWeight="0.5013477" side_tool="true" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.49932706" visible="true" weight="0.21162046" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49932706" visible="true" weight="0.21162046" />
       <window_info id="Structure" order="2" sideWeight="0.50067294" side_tool="true" weight="0.15938303" />
       <window_info id="Gulp" order="3" side_tool="true" />
       <window_info id="npm" order="4" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="0" sideWeight="0.49946696" visible="true" weight="0.56121343" />
+      <window_info anchor="bottom" id="Terminal" order="0" sideWeight="0.49946696" visible="true" weight="0.3206934" />
       <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.50053304" side_tool="true" weight="0.27843988" />
       <window_info anchor="bottom" id="Version Control" order="3" show_stripe_button="false" />
@@ -401,7 +461,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Scss/ContentElements/platzhalter.scss" />
     <entry file="file://$PROJECT_DIR$/Templates/Globals/breakpoint-detection.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -478,31 +537,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Scss/Base/_z-indexes.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" selection-start-line="23" selection-end-line="23" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scss/Partials/_body.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Scss/ContentElements/_aktuelles.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="28" lean-forward="true" selection-start-line="6" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scss/Base/_colors.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" selection-start-line="20" selection-end-line="20" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -538,13 +576,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="50" lean-forward="true" selection-start-line="1" selection-start-column="50" selection-end-line="1" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scss/Base/_variables.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="445">
-          <caret line="36" selection-start-line="36" selection-end-line="36" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -694,25 +725,68 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Templates/Partials/header.php">
+    <entry file="file://$PROJECT_DIR$/Scss/Base/_colors.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="48" column="52" selection-start-line="48" selection-start-column="52" selection-end-line="48" selection-end-column="52" />
+        <state relative-caret-position="391">
+          <caret line="23" column="2" lean-forward="true" selection-start-line="23" selection-end-line="23" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scss/Base/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="479">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scss/Partials/_body.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scss/Base/_z-indexes.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-end-line="12" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Prod/prod.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="35046" column="35" lean-forward="true" selection-start-line="35046" selection-start-column="35" selection-end-line="35046" selection-end-column="35" />
           <folding>
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#header#0;n#!!top" />
-            <element signature="n#div#0;n#div#1;n#div#0;n#div#1;n#header#0;n#!!top" />
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#294#1092#0" />
+            <element signature="e#1175#1256#0" />
+            <element signature="e#2037#2385#0" />
+            <element signature="e#2429#2477#0" />
+            <element signature="e#2652#3581#0" />
+            <element signature="e#3607#3836#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Scss/Partials/_header.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="489" column="49" lean-forward="true" selection-start-line="489" selection-start-column="49" selection-end-line="489" selection-end-column="49" />
+        <state relative-caret-position="237">
+          <caret line="125" column="13" lean-forward="true" selection-start-line="125" selection-start-column="13" selection-end-line="125" selection-end-column="13" />
           <folding>
             <element signature="e#156#3804#0" />
             <element signature="e#290#2887#0" />
             <element signature="e#3842#4174#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Templates/Partials/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="41" column="37" lean-forward="true" selection-start-line="41" selection-start-column="37" selection-end-line="41" selection-end-column="37" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#header#0;n#!!top" />
           </folding>
         </state>
       </provider>
