@@ -12,6 +12,24 @@
         }
       }
 
+      .slider{
+        .content_slide{
+          font-size:$font-size-medium-mobile;
+          color: $color-black;
+          font-family:$font-family-base;
+          text-align: initial;
+          margin-bottom: 20px;
+          @media (min-width: $screen-md-min) {
+            font-size: $font-size-medium;
+          }
+          .color_blue{
+          color:$color-blue-text;
+            font-family:$font-family-bold;
+          }
+        }
+
+      }
+
     }
 
 }

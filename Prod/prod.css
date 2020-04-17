@@ -12316,6 +12316,18 @@ a {
     @media (min-width: 990px) {
       #team .container .title {
         font-size: 33px; } }
+  #team .container .slider .content_slide {
+    font-size: 13px;
+    color: #000000;
+    font-family: "SourceSansPro-Regular";
+    text-align: initial;
+    margin-bottom: 20px; }
+    @media (min-width: 990px) {
+      #team .container .slider .content_slide {
+        font-size: 18px; } }
+    #team .container .slider .content_slide .color_blue {
+      color: #4a9eb2;
+      font-family: "SourceSansPro-Bold"; }
 
 #logos-block .container {
   background: #FFFFFF; }
