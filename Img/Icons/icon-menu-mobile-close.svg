@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="25px" viewBox="0 0 26 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 56.3 (81716) - https://sketch.com -->
+    <title>menu-mobile-close</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="square">
+        <g id="menu/mobile" transform="translate(-182.000000, -17.000000)" stroke="#000000" stroke-width="3">
+            <g id="menu-mobile-close" transform="translate(185.000000, 19.000000)">
+                <path d="M0,0.5 L19.4641543,19.9641543" id="Line-Copy-2"></path>
+                <path d="M0,0.5 L19.4641543,19.9641543" id="Line-Copy-3" transform="translate(10.000000, 10.000000) scale(-1, 1) translate(-10.000000, -10.000000) "></path>
+            </g>
+        </g>
+    </g>
+</svg>
