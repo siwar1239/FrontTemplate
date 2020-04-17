@@ -34705,6 +34705,53 @@ jcf.addModule(function($) {
     });
   })();
 })(window, document, jQuery);
+
+//////////////////////////////Added functions (siwar)////////////////////////////////////
+
+var mobileMenu = document.querySelector(".main-nav");
+
+/* ------------------------------------
+ Mobile menu open and close function
+ ------------------------------------ */
+function mobilemenuclose() {
+    $(document).on('click', '#nav-icon', function () {
+        $(this).toggleClass('opened');
+        $('.main-nav').toggleClass('opened');
+        if ($('.main-nav').hasClass('opened')) {
+            //disable body scrolling
+            bodyScrollLock.disableBodyScroll(mobileMenu);
+        } else {
+            // console.log($('.main-nav').hasClass('opened'));
+            //enable body scrolling
+            bodyScrollLock.enableBodyScroll(mobileMenu);
+
+        }
+    });
+
+}
+
+
+/* ------------------------------------
+Dropdown menu
+------------------------------------ */
+function dropdownmenu() {
+    $('.open-mobile-menu').click(function () {
+        $(this).toggleClass('opened');
+        $(this).parent().find('.dropdown-menu').toggleClass('opened')
+    })
+}
+
+
+
+
+
+
+
+
+
+
+
+
 // ==========================================================================
 //
 // Media
@@ -34994,7 +35041,29 @@ jcf.addModule(function($) {
       }
     }
   });
+
+  ///////////////////**********Added part declaration of functions JS (siwar)*********///////////
+
+    $(document).ready(function () {
+        mobilemenuclose();
+        dropdownmenu();
+    });
+
 })(jQuery);
+
+
+///////////////siwar//////////
+
+
+
+
+
+
+///////////////siwar///////
+
+
+
+
 // ==========================================================================
 //
 // Guestures
