@@ -124,6 +124,14 @@
 
     /**********Nav mobile icon*************/
     .menu-right{
+        @media (max-width: $screen-xs-max) {
+            top: -52px;
+        }
+        @media (min-width: $screen-xs-max) and (max-width: $screen-sm-max){
+            top: 31px;
+        }
+
+
         .mobile-nav-opener {
             position: absolute;
             top: 8px;

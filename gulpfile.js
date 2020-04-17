@@ -68,6 +68,7 @@ gulp.task('processJs', done => {
         './node_modules/@fancyapps/fancybox/dist/jquery.fancybox.js',
         //'./node_modules/popper.js/dist/popper.js',
         'node_modules/bootstrap/dist/js/bootstrap.js',
+        'Js/MySlickSlider.js',
         'Js/main.js'
     ])
     // For production
