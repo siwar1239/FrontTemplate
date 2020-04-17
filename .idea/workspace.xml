@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f87c767-7d8b-480c-bd9d-1bca28336790" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Prod/prod.css" beforeDir="false" afterPath="$PROJECT_DIR$/Prod/prod.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Prod/prod.js" beforeDir="false" afterPath="$PROJECT_DIR$/Prod/prod.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scss/Partials/_body.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Scss/Partials/_body.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Scss/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scss/ContentElements/_team.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Scss/ContentElements/_team.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Templates/ContentElements/team.php" beforeDir="false" afterPath="$PROJECT_DIR$/Templates/ContentElements/team.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,7 +29,7 @@
         <counts>
           <entry key="css" value="11" />
           <entry key="gitignore" value="1" />
-          <entry key="js" value="21" />
+          <entry key="js" value="24" />
           <entry key="json" value="4" />
           <entry key="map" value="1" />
           <entry key="md" value="2" />
@@ -45,7 +44,7 @@
           <entry key="CSS" value="11" />
           <entry key="Image" value="1" />
           <entry key="JSON" value="4" />
-          <entry key="JavaScript" value="21" />
+          <entry key="JavaScript" value="24" />
           <entry key="Markdown" value="2" />
           <entry key="PHP" value="88" />
           <entry key="PLAIN_TEXT" value="2" />
@@ -57,19 +56,19 @@
         <counts>
           <entry key="css" value="7" />
           <entry key="gitignore" value="14" />
-          <entry key="js" value="509" />
-          <entry key="php" value="2721" />
-          <entry key="scss" value="3545" />
+          <entry key="js" value="523" />
+          <entry key="php" value="2722" />
+          <entry key="scss" value="3546" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="7" />
           <entry key="HTML" value="1" />
-          <entry key="JavaScript" value="509" />
-          <entry key="PHP" value="2720" />
+          <entry key="JavaScript" value="523" />
+          <entry key="PHP" value="2721" />
           <entry key="PLAIN_TEXT" value="14" />
-          <entry key="SCSS" value="3545" />
+          <entry key="SCSS" value="3546" />
         </counts>
       </usages-collector>
     </session>
@@ -80,7 +79,7 @@
         <entry file="file://$PROJECT_DIR$/Scss/ContentElements/_team.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
@@ -95,28 +94,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Css/MySlickSlider.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="354">
-              <caret line="188" column="16" lean-forward="true" selection-start-line="188" selection-start-column="16" selection-end-line="188" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Js/MySlickSlider.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="15" column="13" lean-forward="true" selection-end-line="46" selection-end-column="7415" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Prod/prod.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="35061" column="27" selection-start-line="35061" selection-start-column="27" selection-end-line="35061" selection-end-column="27" />
+            <state relative-caret-position="628">
+              <caret line="35056" lean-forward="true" selection-start-line="35056" selection-end-line="35056" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="e#294#1092#0" />
@@ -136,10 +117,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Js/slide_team.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="670">
+              <caret line="46" column="7415" selection-start-line="46" selection-start-column="7415" selection-end-line="46" selection-end-column="7415" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/gulpfile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
-              <caret line="71" column="20" lean-forward="true" selection-start-line="71" selection-start-column="20" selection-end-line="71" selection-end-column="20" />
+            <state relative-caret-position="436">
+              <caret line="73" column="32" lean-forward="true" selection-start-line="73" selection-start-column="32" selection-end-line="73" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -147,8 +137,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Templates/ContentElements/team.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="29" lean-forward="true" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+            <state relative-caret-position="738">
+              <caret line="112" column="10" selection-start-line="112" selection-start-column="10" selection-end-line="112" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -175,12 +165,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>fancybox</find>
-      <find>$container-md</find>
-      <find>make-grid(md</find>
-      <find>make-grid</find>
-      <find>$screen-md-min</find>
-      <find>The complete Bootstrap grid system</find>
       <find>margin-right: auto</find>
       <find>$container-lg</find>
       <find>responsive-embed</find>
@@ -205,6 +189,12 @@
       <find>family</find>
       <find>@gutters</find>
       <find>dropdown</find>
+      <find>slick</find>
+      <find>Author: Ken Wheeler</find>
+      <find>.slick</find>
+      <find>Ken Wheeler</find>
+      <find>main</find>
+      <find>s</find>
     </findStrings>
     <dirStrings>
       <dir>C:\xampp\htdocs\FrontTemplate\node_modules</dir>
@@ -218,8 +208,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Scss/Base/_development-utilities.scss" />
-        <option value="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap-grid.css" />
         <option value="$PROJECT_DIR$/Templates/ContentElements/text-request-info.php" />
         <option value="$PROJECT_DIR$/Scss/ContentElements/_text-request-info.scss" />
         <option value="$PROJECT_DIR$/Inc/functions.php" />
@@ -262,13 +250,15 @@
         <option value="$PROJECT_DIR$/Js/MySlickSlider.js" />
         <option value="$PROJECT_DIR$/Scss/ContentElements/_sliderteam.scss" />
         <option value="$PROJECT_DIR$/Templates/home.php" />
-        <option value="$PROJECT_DIR$/Templates/ContentElements/team.php" />
-        <option value="$PROJECT_DIR$/Scss/ContentElements/_team.scss" />
         <option value="$PROJECT_DIR$/Css/MySlickSlider.css" />
         <option value="$PROJECT_DIR$/Scss/Partials/_body.scss" />
         <option value="$PROJECT_DIR$/Scss/main.scss" />
-        <option value="$PROJECT_DIR$/gulpfile.js" />
+        <option value="$PROJECT_DIR$/Templates/ContentElements/team.php" />
+        <option value="$PROJECT_DIR$/Scss/ContentElements/_team.scss" />
+        <option value="$PROJECT_DIR$/Js/main.js" />
+        <option value="$PROJECT_DIR$/Js/slide_team.js" />
         <option value="$PROJECT_DIR$/Prod/prod.js" />
+        <option value="$PROJECT_DIR$/gulpfile.js" />
       </list>
     </option>
   </component>
@@ -325,6 +315,11 @@
             <path>
               <item name="FrontTemplate" type="b2602c69:ProjectViewProjectNode" />
               <item name="FrontTemplate" type="462c0819:PsiDirectoryNode" />
+              <item name="Prod" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FrontTemplate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FrontTemplate" type="462c0819:PsiDirectoryNode" />
               <item name="Scss" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -367,12 +362,12 @@
       <workItem from="1586788833911" duration="330000" />
       <workItem from="1586789176734" duration="1993000" />
       <workItem from="1586846601504" duration="62276000" />
-      <workItem from="1587016518568" duration="50494000" />
+      <workItem from="1587016518568" duration="51590000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="115093000" />
+    <option name="totallyTimeSpent" value="116189000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -383,7 +378,7 @@
       <window_info id="Structure" order="2" sideWeight="0.50067294" side_tool="true" weight="0.15938303" />
       <window_info id="Gulp" order="3" side_tool="true" />
       <window_info id="npm" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="0" sideWeight="0.49946696" visible="true" weight="0.13976164" />
+      <window_info anchor="bottom" id="Terminal" order="0" sideWeight="0.49946696" visible="true" weight="0.108342364" />
       <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.50053304" side_tool="true" weight="0.27843988" />
       <window_info anchor="bottom" id="Version Control" order="3" show_stripe_button="false" />
@@ -431,9 +426,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Templates/Globals/favicons.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Templates/Globals/head.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -684,13 +676,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Scss/ContentElements/_team.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Scss/Partials/_body.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="523">
@@ -705,17 +690,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Templates/ContentElements/team.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="29" lean-forward="true" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Css/MySlickSlider.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="354">
-          <caret line="188" column="16" lean-forward="true" selection-start-line="188" selection-start-column="16" selection-end-line="188" selection-end-column="16" />
+          <caret line="188" column="16" selection-start-line="188" selection-start-column="16" selection-end-line="188" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -726,27 +704,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Js/MySlickSlider.js">
+    <entry file="file://$PROJECT_DIR$/Templates/ContentElements/team.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="15" column="13" lean-forward="true" selection-end-line="46" selection-end-column="7415" />
+        <state relative-caret-position="738">
+          <caret line="112" column="10" selection-start-line="112" selection-start-column="10" selection-end-line="112" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+    <entry file="file://$PROJECT_DIR$/Scss/ContentElements/_team.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="71" column="20" lean-forward="true" selection-start-line="71" selection-start-column="20" selection-end-line="71" selection-end-column="20" />
+        <state relative-caret-position="255">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Js/mySlickSlider.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="20" column="29" selection-end-line="46" selection-end-column="7415" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Js/main.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/Js/slide_team.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="670">
+          <caret line="46" column="7415" selection-start-line="46" selection-start-column="7415" selection-end-line="46" selection-end-column="7415" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Prod/prod.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="35061" column="27" selection-start-line="35061" selection-start-column="27" selection-end-line="35061" selection-end-column="27" />
+        <state relative-caret-position="628">
+          <caret line="35056" lean-forward="true" selection-start-line="35056" selection-end-line="35056" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="e#294#1092#0" />
@@ -756,6 +748,13 @@
             <element signature="e#2652#3581#0" />
             <element signature="e#3607#3836#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="436">
+          <caret line="73" column="32" lean-forward="true" selection-start-line="73" selection-start-column="32" selection-end-line="73" selection-end-column="32" />
         </state>
       </provider>
     </entry>
