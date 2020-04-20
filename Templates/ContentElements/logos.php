@@ -1,4 +1,9 @@
 <section id="logos-block">
+    <!-- Return to Top -->
+    <a href="javascript:" id="return-to-top">
+        <img src="../Img/arrowtop.png"/>
+    </a>
+
         <div class="container">
             <div class="row">
                 <div class="logos">
